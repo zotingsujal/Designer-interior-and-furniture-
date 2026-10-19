@@ -9,6 +9,11 @@ export const googleDriveLocalAssetMap: Record<string, string> = {
   '1apimiWoO2dTUm_AHsp9A6dU3DTbPi91X': '/images/products/crown-malaysian-comfort-3-seater-front-view.jpg',
   '1emeBHw79WFX_heYgDe16NT0j6mkrxPU7': '/images/products/crown-malaysian-comfort-3-seater-side-view.jpg',
   '1Gi0FT4LLDV4OH6p6W0ooHH69ZT9Jucl_': '/images/products/crown-malaysian-comfort-1-seater-front-view.jpg',
+  '1fxlCKj2tULaRkOcS1vmDNwe6gaQXsW7T': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-white-background.jpg',
+  '1Z8WAHPfJAfi-nQPEEWNSAxyaH8SkQ_qn': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-premium-interior.jpg',
+  '1Rrs7DL86vtARxOLx1_pmw3Glaf2nza5p': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-3-seater-front-view.jpg',
+  '1WJMm-AhuSqlMFk32WLpL7KfxtdtZ7inh': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-3-seater-side-view.jpg',
+  '1Aj1S52-_vJd00B9O58JGfL0u1IUbItsZ': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-1-seater-front-view.jpg',
 
   // Product 2 — Two Tone Sofa Set
   '1LFI0upf7MdzEfI_1m9bF6dF4FbrDZl1w': '/images/products/two_tone_white.jpg',

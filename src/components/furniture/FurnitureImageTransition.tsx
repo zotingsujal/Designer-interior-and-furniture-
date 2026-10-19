@@ -13,6 +13,7 @@ export const FurnitureImageTransition: React.FC<FurnitureImageTransitionProps> =
   images,
   alt,
   category = 'default',
+  isHovered,
   className = '',
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -20,8 +21,19 @@ export const FurnitureImageTransition: React.FC<FurnitureImageTransitionProps> =
   // Filter out empty or duplicate images to ensure clean views
   const validImages = images && images.length > 0 ? Array.from(new Set(images.filter(Boolean))) : [];
 
+  // When hover state changes in product listings, transition immediately:
+  // Hovered -> Slot 2 (Premium realistic interior with other furniture)
+  // Unhovered -> Slot 1 (Sofa set in white background)
   useEffect(() => {
     if (validImages.length <= 1) return;
+    if (typeof isHovered === 'boolean') {
+      setCurrentIndex(isHovered ? 1 : 0);
+    }
+  }, [isHovered, validImages.length]);
+
+  // When not hovered, gently cycle views so shoppers preview both perspectives
+  useEffect(() => {
+    if (validImages.length <= 1 || isHovered) return;
 
     // Respect reduced-motion preferences
     if (
@@ -34,10 +46,10 @@ export const FurnitureImageTransition: React.FC<FurnitureImageTransitionProps> =
 
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % validImages.length);
-    }, 4000);
+    }, 4500);
 
     return () => clearInterval(interval);
-  }, [validImages.length]);
+  }, [validImages.length, isHovered]);
 
   if (validImages.length === 0) {
     return (
@@ -61,7 +73,7 @@ export const FurnitureImageTransition: React.FC<FurnitureImageTransitionProps> =
           src={img}
           alt={`${alt} - view ${idx + 1}`}
           category={category}
-          className={`absolute inset-0 w-full h-full object-contain object-center transition-opacity duration-1200 ease-in-out pointer-events-none p-1 sm:p-2 ${
+          className={`absolute inset-0 w-full h-full object-contain object-center transition-opacity duration-700 ease-in-out pointer-events-none p-1 sm:p-2 ${
             idx === currentIndex
               ? 'opacity-100 z-1'
               : 'opacity-0 z-0'

@@ -30,10 +30,10 @@ export const FurnitureProductCard: React.FC<FurnitureProductCardProps> = ({
       onMouseLeave={() => setIsHovered(false)}
       className="group relative bg-[#FAF9F5] border border-[#E6DFD5] hover:border-[#18181B] transition-all duration-300 flex flex-col justify-between cursor-pointer rounded-xs shadow-2xs hover:shadow-md"
     >
-      {/* Product Image Area with 16:9 frame and Automatic Crossfade Transition */}
+      {/* Product Image Area with 5:4 frame and Automatic Crossfade Transition */}
       <div
-        className="relative aspect-[16/9] w-full bg-[#F5F2EC] overflow-hidden"
-        style={{ aspectRatio: '16 / 9', width: '100%', backgroundColor: '#F5F2EC' }}
+        className="relative aspect-[5/4] w-full bg-[#F5F2EC] overflow-hidden"
+        style={{ aspectRatio: '5 / 4', width: '100%', backgroundColor: '#F5F2EC' }}
       >
         <FurnitureImageTransition
           images={[product.primaryImage, product.secondaryImage].filter(Boolean)}

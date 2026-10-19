@@ -12,6 +12,7 @@ export const FurnitureProductGallery: React.FC<FurnitureProductGalleryProps> = (
   images,
   productName,
   category = 'default',
+  productSlug,
 }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isInspecting, setIsInspecting] = useState(false);
@@ -180,13 +181,13 @@ export const FurnitureProductGallery: React.FC<FurnitureProductGalleryProps> = (
 
   return (
     <div className="flex flex-col gap-4">
-      {/* 1. Main Smooth Horizontal Slideshow Viewport (original 16:9 ratio, object-fit: contain, width: 100%, neutral clean bg) */}
+      {/* 1. Main Smooth Horizontal Slideshow Viewport (5:4 ratio, object-fit: contain, width: 100%, neutral clean bg) */}
       <div
         tabIndex={0}
         role="region"
         aria-label={`${productName} image slideshow`}
-        className="relative aspect-[16/9] w-full bg-[#FAF8F5] border border-[#E6DFD5] overflow-hidden rounded-xs cursor-pointer group select-none focus:outline-none focus:ring-1 focus:ring-[#9A6F3E]/40"
-        style={{ aspectRatio: '16 / 9', width: '100%', backgroundColor: '#FAF8F5' }}
+        className="relative aspect-[5/4] w-full bg-[#FAF8F5] border border-[#E6DFD5] overflow-hidden rounded-xs cursor-pointer group select-none focus:outline-none focus:ring-1 focus:ring-[#9A6F3E]/40"
+        style={{ aspectRatio: '5 / 4', width: '100%', backgroundColor: '#FAF8F5' }}
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
         onKeyDown={handleKeyDown}
@@ -215,7 +216,7 @@ export const FurnitureProductGallery: React.FC<FurnitureProductGalleryProps> = (
         </div>
       </div>
 
-      {/* 2. Visual Thumbnails Row (object-contain, consistent 16:9 boxes, neutral bg) */}
+      {/* 2. Visual Thumbnails Row (object-contain, consistent 5:4 boxes, neutral bg) */}
       {cleanImages.length > 1 && (
         <div
           className="flex items-center gap-2.5 sm:gap-3 overflow-x-auto pb-1 scrollbar-none"
@@ -228,9 +229,10 @@ export const FurnitureProductGallery: React.FC<FurnitureProductGalleryProps> = (
               type="button"
               role="tab"
               aria-selected={selectedIndex === idx}
-              aria-label={`View angle ${idx + 1} of ${cleanImages.length}`}
+              aria-label={`View photo ${idx + 1} of ${cleanImages.length}`}
+              title={`View photo ${idx + 1}`}
               onClick={() => setSelectedIndex(idx)}
-              className={`relative w-20 sm:w-24 aspect-[16/9] rounded-xs overflow-hidden shrink-0 border-2 bg-[#FAF8F5] p-1 transition-all cursor-pointer ${
+              className={`relative w-16 sm:w-20 aspect-[5/4] rounded-xs overflow-hidden shrink-0 border-2 bg-[#FAF8F5] p-1 transition-all cursor-pointer ${
                 selectedIndex === idx
                   ? 'border-[#18181B] shadow-md ring-1 ring-[#18181B] bg-white'
                   : 'border-[#E6DFD5] opacity-75 hover:opacity-100 hover:border-[#87786B]'
@@ -373,7 +375,7 @@ export const FurnitureProductGallery: React.FC<FurnitureProductGalleryProps> = (
                   setZoomLevel(1);
                   setPanOffset({ x: 0, y: 0 });
                 }}
-                className={`relative w-16 sm:w-20 aspect-[16/9] rounded-xs overflow-hidden shrink-0 border-2 bg-[#27272A] p-0.5 transition-all cursor-pointer ${
+                className={`relative w-14 sm:w-16 aspect-[5/4] rounded-xs overflow-hidden shrink-0 border-2 bg-[#27272A] p-0.5 transition-all cursor-pointer ${
                   selectedIndex === idx
                     ? 'border-[#C5A880] ring-1 ring-[#C5A880] scale-105'
                     : 'border-white/20 opacity-60 hover:opacity-100'
