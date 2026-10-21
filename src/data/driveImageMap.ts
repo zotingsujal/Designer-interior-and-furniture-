@@ -4,68 +4,83 @@
  */
 export const googleDriveLocalAssetMap: Record<string, string> = {
   // Product 1 — Crown Malaysian Comfort Sofa Set
-  '1ASVL8-z67A8BogCv3qfYpCwm70qGeWOc': '/images/products/crown-malaysian-comfort-sofa-set-white-background.jpg',
-  '1uDUGbCQSw7G9Owx_Tg0a0MIQCFohd1pD': '/images/products/crown-malaysian-comfort-sofa-set-premium-interior.jpg',
-  '1apimiWoO2dTUm_AHsp9A6dU3DTbPi91X': '/images/products/crown-malaysian-comfort-3-seater-front-view.jpg',
-  '1emeBHw79WFX_heYgDe16NT0j6mkrxPU7': '/images/products/crown-malaysian-comfort-3-seater-side-view.jpg',
-  '1Gi0FT4LLDV4OH6p6W0ooHH69ZT9Jucl_': '/images/products/crown-malaysian-comfort-1-seater-front-view.jpg',
-  '1fxlCKj2tULaRkOcS1vmDNwe6gaQXsW7T': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-white-background.jpg',
-  '1Z8WAHPfJAfi-nQPEEWNSAxyaH8SkQ_qn': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-premium-interior.jpg',
-  '1Rrs7DL86vtARxOLx1_pmw3Glaf2nza5p': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-3-seater-front-view.jpg',
-  '1WJMm-AhuSqlMFk32WLpL7KfxtdtZ7inh': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-3-seater-side-view.jpg',
-  '1Aj1S52-_vJd00B9O58JGfL0u1IUbItsZ': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-1-seater-front-view.jpg',
+  '1VI1W7CR1558EoSzw_X-MiUem9mx_jOWd': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/01_white_bg.jpg',
+  '1CED9zvqEe40jVG-kZHv5EZ2DXYcRkJPz': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/02_interior.jpg',
+  '1lYqs49NcyP-zXKNCUppaibcfbBikJKMh': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/03_3seater_front.jpg',
+  '17cfDEkc2YoKlkvhsdaWX7ajNkQem55QT': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/04_3seater_side.jpg',
+  '1LGI9tZjmQjVwWKMI4NrE60Vt9noMONEJ': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/05_1seater_front.jpg',
+  '1fxlCKj2tULaRkOcS1vmDNwe6gaQXsW7T': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/01_white_bg.jpg',
+  '1Z8WAHPfJAfi-nQPEEWNSAxyaH8SkQ_qn': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/02_interior.jpg',
+  '1Rrs7DL86vtARxOLx1_pmw3Glaf2nza5p': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/03_3seater_front.jpg',
+  '1WJMm-AhuSqlMFk32WLpL7KfxtdtZ7inh': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/04_3seater_side.jpg',
+  '1Aj1S52-_vJd00B9O58JGfL0u1IUbItsZ': '/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/05_1seater_front.jpg',
 
   // Product 2 — Two Tone Sofa Set
-  '1LFI0upf7MdzEfI_1m9bF6dF4FbrDZl1w': '/images/products/two_tone_white.jpg',
-  '15ElCw4AYOzgA36tHAQxvc8EN3Ca0j2fD': '/images/products/two_tone_interior.jpg',
-  '1Ykm7wEpWbzxxUjVLdTa77Cbo7CzjRKh1': '/images/products/two_tone_3seater_front.jpg',
-  '1ROUC7KnEHGMxHXiJadamh6Sw3rhBh7HG': '/images/products/two_tone_3seater_side.jpg',
-  '1_73CQl3qJSCn3HZTF_MX3WMjbD8I2ws4': '/images/products/two_tone_1seater_front.jpg',
+  '1EvOAd-fi7VBzAx9QG5xZ_zLXFI5LCMac': '/images/products/sofa-sets/two-tone-sofa-set/01_white_bg.jpg',
+  '1JGrvScgHInADlBcu__9zd1XmI9-Gdxwc': '/images/products/sofa-sets/two-tone-sofa-set/02_interior.jpg',
+  '1tWVJQ_bAghHV2oODEPxiZzDuRQVGUWqQ': '/images/products/sofa-sets/two-tone-sofa-set/03_3seater_front.jpg',
+  '1Av8V9QORf6jknT93y-Qgh07bGprwjdRG': '/images/products/sofa-sets/two-tone-sofa-set/04_3seater_side.jpg',
+  '1naM3vOi1g7rdBdXV6JB4GKXSM6i_9Ni9': '/images/products/sofa-sets/two-tone-sofa-set/05_1seater_front.jpg',
 
   // Product 3 — New Zen Sofa Set
-  '1kvWW8_ggDHe6e27cqizJHdF9dSjQqWQG': '/images/products/new_zen_white.jpg',
-  '174T040ga3bPHVLwoT90lkF3CqOA5NIhN': '/images/products/new_zen_interior.jpg',
-  '1FkrDmq5PfrCClEcYBJEsR5cHDjBFqNYl': '/images/products/new_zen_3seater_front.jpg',
-  '1C6Il47PXfkYPKO988gRIvMkzR5kvXgDF': '/images/products/new_zen_3seater_side.jpg',
-  '1R3BlJWJ9zZOc8fRZIzH59uxv8ODZDFGt': '/images/products/new_zen_1seater_front.jpg',
+  '13o9YmEu19g26cA0pgAWPy20R-uUe3Nc3': '/images/products/sofa-sets/new-zen-sofa-set/01_white_bg.jpg',
+  '1b0zeZXE5mA3Lg4gnTRkEP9LBIRmf0t9i': '/images/products/sofa-sets/new-zen-sofa-set/02_interior.jpg',
+  '1djgy9gxhSbQbT7j1kckmuRPpuE7QM2qo': '/images/products/sofa-sets/new-zen-sofa-set/03_3seater_front.jpg',
+  '1kNQUGrJCltFKG9mCwLMajcaHchim05v5': '/images/products/sofa-sets/new-zen-sofa-set/04_3seater_side.jpg',
+  '1LI-zAcP7beN3XgWks7IsMRZ0a_6UEejk': '/images/products/sofa-sets/new-zen-sofa-set/05_1seater_front.jpg',
 
   // Product 4 — MAGRACK SOFA SET
-  '1MURzYyV9nM58IpX1f4c3bmY-8Z01pX75': '/images/products/magrack_white.jpg',
-  '1e3o_pk3_6zr3uvNr-1sRvrRuh99mfJOk': '/images/products/magrack_interior.jpg',
-  '1fFg_ykfOdNfdXbMEUrs587rghMdLpA6z': '/images/products/magrack_3seater_front.jpg',
-  '11i956ubfQqSFLW37BeJLN42yqUbmuIle': '/images/products/magrack_3seater_side.jpg',
-  '1maK2hhDzn9gPBItKH1Wy7wkloqmVOR4M': '/images/products/magrack_1seater_front.jpg',
+  '19nStw91JM6zGqAm_LLK04EhDjZqr--c4': '/images/products/sofa-sets/magrack-sofa-set/01_white_bg.jpg',
+  '1oZojMybxSteDTBbKWqp8DaorqKgn_ms_': '/images/products/sofa-sets/magrack-sofa-set/02_interior.jpg',
+  '1PuoTGkGNm7HaRP0katH8tWmQahD4Fdho': '/images/products/sofa-sets/magrack-sofa-set/03_3seater_front.jpg',
+  '1ggRFaHBet_qQQI1UrvZPUiPnUPc7oS39': '/images/products/sofa-sets/magrack-sofa-set/04_3seater_side.jpg',
+  '11eW_fh0WLRUcuSR8t38uZ4kFdojK7fYB': '/images/products/sofa-sets/magrack-sofa-set/05_1seater_front.jpg',
 
   // Product 5 — PND SOFA SET
-  '1wUXBhlwEQtOBAfldaKQ6UXer3oZDpfLC': '/images/products/pnd_white.jpg',
-  '1u7IbHkQVf53_LUWcxgEB2BMEnx7ocC-K': '/images/products/pnd_interior.jpg',
-  '1o4oWaz3Jl_x-zofm9LnsEI1n1pB2jcVN': '/images/products/pnd_3seater_front.jpg',
-  '1luX93t8Svfi4Ya5scHxnl0k8xTJw4xSz': '/images/products/pnd_3seater_side.jpg',
-  '19u5hmFtbU03zXFpxVM-_y-P3qa3ep1UN': '/images/products/pnd_1seater_front.jpg',
+  '1KfEUDVwCN4z8IyMnT1iwjb4wNl8Nxlu_': '/images/products/sofa-sets/pnd-sofa-set/01_white_bg.jpg',
+  '1zjeuQEdSnBe87qiqaUzXD_EHKETchGII': '/images/products/sofa-sets/pnd-sofa-set/02_interior.jpg',
+  '1LLWRuJIq5Tmb_YMSD32z_vVHEK5z4pHt': '/images/products/sofa-sets/pnd-sofa-set/03_3seater_front.jpg',
+  '19rKZ_wSFF5KMjcs_F8Q5saHwvZ52zMlK': '/images/products/sofa-sets/pnd-sofa-set/04_3seater_side.jpg',
+  '18dWEtphCeMV_5dlSdnFlQHkTu1W3d4G5': '/images/products/sofa-sets/pnd-sofa-set/05_1seater_front.jpg',
 
   // Product 6 — Modern criss cross sofa set
-  '1IyVzZfw8HsVvY0NLRkFN5z7Lg9IYcMM2': '/images/products/modern_criss_cross_white.jpg',
-  '161RA1bKHfhDCQM2xk9JXNN-z-RPq9-tq': '/images/products/modern_criss_cross_interior.jpg',
-  '1o7_JMmk3U_PIYsignfVwbcErwuDL5pKc': '/images/products/modern_criss_cross_3seater_front.jpg',
-  '1v8vg-oz0ss43GUZMmfB6rBFOjCWXrY85': '/images/products/modern_criss_cross_3seater_side.jpg',
-  '1Xs3uuwu2mhANtxBIG7BmKYuZhIxv66n_': '/images/products/modern_criss_cross_1seater_front.jpg',
+  '1ii1aLAQgG6GI4Xpv5xb2DqGbKoKBn2So': '/images/products/sofa-sets/modern-criss-cross-sofa-set/01_white_bg.jpg',
+  '1NNBVJTP3cNu2HuvOmP7VMd7Pjzly3LtT': '/images/products/sofa-sets/modern-criss-cross-sofa-set/02_interior.jpg',
+  '1SGlJahlwSLHgzHVDbxjI9bpUzpdd9mJl': '/images/products/sofa-sets/modern-criss-cross-sofa-set/03_3seater_front.jpg',
+  '1tyo6mwAafi8hEBaDez4jF7WlbOrpnDgV': '/images/products/sofa-sets/modern-criss-cross-sofa-set/04_3seater_side.jpg',
+  '1frLPR_o29a9j3heYBCMrTHQLnxnEMgI4': '/images/products/sofa-sets/modern-criss-cross-sofa-set/05_1seater_front.jpg',
 
   // Product 7 — 217 sofa set
-  '1ObnU8y6ebgMvelvCoOVN9oyQgAGuAlDJ': '/images/products/217_sofa_white.jpg',
-  '1TkThwdOSpdBAq1HhUUADpv0NxuGn1v_z': '/images/products/217_sofa_interior.jpg',
-  '17bc8g0Ly9n-y6IjxL4jVqZOXM8q_KgQW': '/images/products/217_sofa_3seater_front.jpg',
-  '1iehLSjjQtWCRY9mshmsV5J6EdWVonHZT': '/images/products/217_sofa_3seater_side.jpg',
-  '1KLtqc5ZTWGtdsLmZamSTZESg8N-Ve0n5': '/images/products/217_sofa_1seater_front.jpg',
+  '1rjE8vs1A14K8kiSvyZbwQk0VjcXQPsZq': '/images/products/sofa-sets/217-sofa-set/01_white_bg.jpg',
+  '1AL5Z2_HkcA6yx7Sd0UZVCl3JpdLUIBCx': '/images/products/sofa-sets/217-sofa-set/02_interior.jpg',
+  '1F6GJxoVEIxjmEadLBPPl4R0A5P4YSudA': '/images/products/sofa-sets/217-sofa-set/03_3seater_front.jpg',
+  '1ps4yd6duUw1RIll2C6Y-99WS-on46XKB': '/images/products/sofa-sets/217-sofa-set/04_3seater_side.jpg',
+  '1WISWJQ-4tXyQ4vL02Hv1_FcpMmJMEllB': '/images/products/sofa-sets/217-sofa-set/05_1seater_front.jpg',
 
   // Product 8 — 369 Sofa Set
-  '1yt1tImJyZJcm78C93_wfUSSMpePmB67k': '/images/products/369_sofa_white.jpg',
-  '1E-EwChWbdBVCpF1yKiiWfS8BkO3BXOI8': '/images/products/369_sofa_interior.jpg',
-  '1lyabk2piW3kGMQ85--3vwleVxOAqb22M': '/images/products/369_sofa_3seater_front.jpg',
-  '1N2U9tPm-FIDmHIBJVlq0ZBc4xO7lUpFp': '/images/products/369_sofa_3seater_side.jpg',
-  '1Y8-EROptPgcdiXnUV6pnA5_et2c0cofy': '/images/products/369_sofa_1seater_front.jpg',
+  '1k9Sprx9zaSkxho_CCJy83Mb3brnrHN23': '/images/products/sofa-sets/369-sofa-set/01_white_bg.jpg',
+  '1RUTrQISsLi0h1MOBEHH8V4f15VXHc8pz': '/images/products/sofa-sets/369-sofa-set/02_interior.jpg',
+  '1kKecNi6SUje_Y7oL7VfALiu7aolkMou8': '/images/products/sofa-sets/369-sofa-set/03_3seater_front.jpg',
+  '1gejceXybj7IfpYwBPjjp8-oJISIkocht': '/images/products/sofa-sets/369-sofa-set/04_3seater_side.jpg',
+  '1LkpwBKdUsoJgXRbQPCZN-ZTzEX4ny5-v': '/images/products/sofa-sets/369-sofa-set/05_1seater_front.jpg',
 
   // Product 9 — 3066 PEARL Sofa Set
-  '1cvDktlhWcmyB-rcV7c1LSBOWIzHSopHH': '/images/products/3066_pearl_white.jpg',
+  '1ftCXf5OvMSaQ4rJw_MIPcw3SgH7dhGuf': '/images/products/sofa-sets/3066-pearl-sofa-set/01_white_bg.jpg',
+  '1CqtN7Zgob6xl5Sn_EXQn2eRr_Euud443': '/images/products/sofa-sets/3066-pearl-sofa-set/02_interior.jpg',
+  '1yy6Xrvv5EuJOdHBaMpGox7iXb4VlMtGQ': '/images/products/sofa-sets/3066-pearl-sofa-set/03_3seater_front.jpg',
+  '1_CuHTrISjmba_RbbF1Kzl8n62oogtiA-': '/images/products/sofa-sets/3066-pearl-sofa-set/04_3seater_side.jpg',
+  '1PyCJG-h3i6Oxis8Wo8cjUBaRS7zKYXL5': '/images/products/sofa-sets/3066-pearl-sofa-set/05_1seater_front.jpg',
+
+  // L-Shaped Sofas
+  // Florenza L-Shape Sofa
+  '13kpY0Vj-KeYPVpPhNRTkQdKMPQktQ9RV': '/images/products/l-shaped-sofas/florenza-l-shape-sofa/01_white_bg.jpg',
+  '1CCNEf_LXdg8i3Jg0_RtWh_ePEfmEaU0i': '/images/products/l-shaped-sofas/florenza-l-shape-sofa/02_interior.jpg',
+  '1nPncylZlA4k_jVHTwb6rHMLcwwqseCkw': '/images/products/l-shaped-sofas/florenza-l-shape-sofa/03_detail_angle.jpg',
+
+  // Category & Subcategory Banners
+  '13fYAlFRJGiTTi1WbXQ6TUdA5IxfmUxPu': '/images/banners/l-shape-sofas-banner.jpg',
+  '1eIeZbMFHDv_aIBkELVkGPyTaoON429F7': '/images/banners/sofa-cum-beds-banner.jpg',
+  '101ptNCY-mL4XsjJcenng-BolQ8epZejh': '/images/banners/sofas-category-banner.png',
 
   // Category & Project Drive Images
   '1CBInl': '/images/drive/drive_img_1_1CBInl.jpg',

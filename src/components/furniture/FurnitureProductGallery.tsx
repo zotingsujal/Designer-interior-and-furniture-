@@ -145,6 +145,50 @@ export const FurnitureProductGallery: React.FC<FurnitureProductGalleryProps> = (
     }
   };
 
+  // Mobile pinch-to-zoom and touch-drag pan in inspector
+  const initialTouchDistanceRef = useRef<number | null>(null);
+  const initialZoomRef = useRef<number>(1);
+  const touchPanStartRef = useRef({ x: 0, y: 0 });
+
+  const handleInspectorTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length === 2) {
+      const dist = Math.hypot(
+        e.touches[0].clientX - e.touches[1].clientX,
+        e.touches[0].clientY - e.touches[1].clientY
+      );
+      initialTouchDistanceRef.current = dist;
+      initialZoomRef.current = zoomLevel;
+    } else if (e.touches.length === 1 && zoomLevel > 1) {
+      setIsPanning(true);
+      touchPanStartRef.current = {
+        x: e.touches[0].clientX - panOffset.x,
+        y: e.touches[0].clientY - panOffset.y,
+      };
+    }
+  };
+
+  const handleInspectorTouchMove = (e: React.TouchEvent) => {
+    if (e.touches.length === 2 && initialTouchDistanceRef.current !== null) {
+      const dist = Math.hypot(
+        e.touches[0].clientX - e.touches[1].clientX,
+        e.touches[0].clientY - e.touches[1].clientY
+      );
+      const factor = dist / initialTouchDistanceRef.current;
+      const targetZoom = Math.min(3, Math.max(1, +(initialZoomRef.current * factor).toFixed(2)));
+      setZoomLevel(targetZoom);
+    } else if (e.touches.length === 1 && isPanning && zoomLevel > 1) {
+      setPanOffset({
+        x: e.touches[0].clientX - touchPanStartRef.current.x,
+        y: e.touches[0].clientY - touchPanStartRef.current.y,
+      });
+    }
+  };
+
+  const handleInspectorTouchEnd = () => {
+    initialTouchDistanceRef.current = null;
+    setIsPanning(false);
+  };
+
   // Close inspector on Escape key & arrow navigation
   useEffect(() => {
     const handleGlobalKeyDown = (e: KeyboardEvent) => {
@@ -332,6 +376,10 @@ export const FurnitureProductGallery: React.FC<FurnitureProductGalleryProps> = (
             onMouseUp={handlePanMouseUp}
             onMouseLeave={handlePanMouseUp}
             onWheel={handleWheel}
+            onTouchStart={handleInspectorTouchStart}
+            onTouchMove={handleInspectorTouchMove}
+            onTouchEnd={handleInspectorTouchEnd}
+            onTouchCancel={handleInspectorTouchEnd}
             onDoubleClick={() => {
               if (zoomLevel === 1) {
                 setZoomLevel(2);

@@ -73,7 +73,7 @@ export const furnitureCategories: FurnitureCategory[] = [
     name: 'Sofas',
     tagline: 'Comfort, Crafted Around Your Space',
     description: 'From expansive corner L-shapes and versatile sofa-cum-beds to hand-tufted Italian leather suites, each sofa is custom engineered in our Mumbai factory with high-resilience comfort foams, kiln-dried timber frames, and bespoke upholstery.',
-    heroImage: 'https://lh3.googleusercontent.com/d/1u0EQjACYj_7imNel2FYYGusqWzoSECKe',
+    heroImage: 'https://lh3.googleusercontent.com/d/101ptNCY-mL4XsjJcenng-BolQ8epZejh',
     subcategories: [
       {
         id: 'sub-sofa-sets',
@@ -89,7 +89,7 @@ export const furnitureCategories: FurnitureCategory[] = [
         name: 'L-Shape Sofas',
         categorySlug: 'sofas',
         description: 'Bespoke corner and chaise sectionals tailored to architectural room proportions, custom seating depth, and imported fabrics.',
-        image: '/images/subcategories/sofas_l-shape-sofas.png'
+        image: '/images/banners/l-shape-sofas-banner.jpg'
       },
       {
         id: 'sub-sofa-cum-beds',
@@ -97,7 +97,7 @@ export const furnitureCategories: FurnitureCategory[] = [
         name: 'Sofa Cum Beds',
         categorySlug: 'sofas',
         description: 'Engineered dual-purpose sofas with smooth hydraulic glide pullouts, high-density comfort mattresses, and concealed bedding storage.',
-        image: '/images/subcategories/sofas_sofa-cum-beds.png'
+        image: '/images/banners/sofa-cum-beds-banner.jpg'
       }
     ]
   },
@@ -291,612 +291,1353 @@ export const furnitureCategories: FurnitureCategory[] = [
 
 export const furnitureProducts: FurnitureProduct[] = [
   {
-    "id": "l-shaped-sofas-01",
-    "slug": "l-shaped-sofas-signature-01",
-    "name": "Arezzo Master Crafted L-Shaped Sectional",
+    "id": "florenza-l-shape-sofa",
+    "slug": "florenza-l-shape-sofa",
+    "name": "Florenza L-Shape Sofa",
     "categorySlug": "sofas",
     "subcategorySlug": "l-shape-sofas",
-    "shortDescription": "Expansive corner sectional with deep lounge seating, duck feather blend cushions, and solid teak base.",
-    "description": "Expansive corner sectional with deep lounge seating, duck feather blend cushions, and solid teak base. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
-    "price": 125000,
-    "originalPrice": 143750,
-    "discountPercent": 12,
-    "badge": "Best Seller",
-    "primaryImage": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
+    "shortDescription": "Italian-inspired architectural corner sectional with deep lounge proportions, feather-touch comfort cushioning, and solid hardwood framing.",
+    "description": "The Florenza L-Shape Sofa embodies refined Italian architectural silhouette crafted for discerning Mumbai residences. Hand-built in our Santacruz workshop, every joint is secured with kiln-dried seasoned hardwood framing, heavy-duty pocket springs, and multilayer 40-density high-resilience foam wrapped in stain-resistant designer upholstery.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/l-shaped-sofas/florenza-l-shape-sofa/01_white_bg.jpg",
+    "secondaryImage": "/images/products/l-shaped-sofas/florenza-l-shape-sofa/02_interior.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80"
+      "/images/products/l-shaped-sofas/florenza-l-shape-sofa/01_white_bg.jpg",
+      "/images/products/l-shaped-sofas/florenza-l-shape-sofa/02_interior.jpg",
+      "/images/products/l-shaped-sofas/florenza-l-shape-sofa/03_detail_angle.jpg"
     ],
-    "dimensions": "112\" W x 68\" D x 33\" H",
+    "dimensions": "",
     "materials": [
-      "Kiln-Dried Teak",
-      "Belgian Boucl\u00e9",
-      "High-Resilience Foam"
+      "Kiln-Dried Seasoned Hardwood Frame",
+      "Pocket Spring Core & 40-Density HR Foam",
+      "Stain-Resistant Imported Velvet / Bouclé",
+      "Reinforced Corner Joinery Blocks"
     ],
-    "finish": "Hand-Rubbed Satin PU Seal",
-    "colors": [
-      {
-        "name": "Warm Teak",
-        "hex": "#8B5A2B"
-      },
-      {
-        "name": "Smoked Walnut",
-        "hex": "#4A3B32"
-      },
-      {
-        "name": "Oatmeal Linen",
-        "hex": "#D2B48C"
-      }
-    ],
+    "finish": "Hand-Rubbed Satin Protective Seal",
+    "colors": [],
     "isCustomizable": true,
     "inStock": true,
-    "careInstructions": "Dust with soft dry microfiber cloth. Avoid direct monsoon moisture exposure. Professional upholstery clean annually.",
-    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
+    "careInstructions": "Dust weekly with a dry microfiber cloth. Spot clean spills immediately with mild water-based cleaner. Annual professional upholstery extraction recommended.",
+    "deliveryInfo": "White-glove delivery, elevator handling, room placement, and professional assembly across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "Can the chaise orientation of the Florenza L-Shape Sofa be ordered in left or right configuration?",
+        "answer": "Yes, during order confirmation with our Mumbai workshop team, you can specify whether you require a left-hand or right-hand chaise layout to perfectly match your living room floor plan."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Can the dimensions of the Florenza L-Shape Sofa be customized for my living room?",
+        "answer": "All sectional lengths, depths, backrest heights, and chaise extension lengths can be custom-tailored in our factory. We encourage you to measure your available room space and confirm your exact architectural dimensions with our showroom."
+      },
+      {
+        "question": "What upholstery fabrics and textures can I enquire about for the Florenza L-Shape Sofa?",
+        "answer": "We offer an extensive swatch library including Belgian stain-resistant linens, textured bouclés, high-rub velvets, chenilles, and performance faux leathers in dozens of designer colorways. Please confirm current fabric availability with the showroom."
+      },
+      {
+        "question": "What internal frame and timber materials are used in the Florenza L-Shape Sofa?",
+        "answer": "The frame is constructed with seasoned solid timber joinery reinforced with corner blocks built to support everyday family lounging. Please confirm specific timber species and internal frame specifications with our team."
+      },
+      {
+        "question": "What cushioning and foam densities are used for seating comfort?",
+        "answer": "Seating layers are engineered with high-resilience contour foams and support springing for balanced ergonomic comfort. Firmness levels can be confirmed or customized with our showroom consultants."
+      },
+      {
+        "question": "How should I measure my room passages and elevators for delivery?",
+        "answer": "We recommend measuring doorways, staircase turning points, and lift door dimensions. Our Mumbai delivery team will review building access to ensure modular sections navigate into your home smoothly."
+      },
+      {
+        "question": "How should I clean and maintain the Florenza L-Shape Sofa?",
+        "answer": "Dust regularly with a soft dry microfiber cloth. Spot clean accidental spills immediately with a mild damp cloth without harsh chemicals. Professional dry cleaning or extraction is recommended annually."
+      },
+      {
+        "question": "How do I confirm the current price, delivery timelines, and warranty?",
+        "answer": "Prices, delivery schedules, and structural warranty coverage vary depending on selected dimensions and upholstery materials. Click the WhatsApp enquiry button to confirm pricing, lead time, and warranty terms directly with Designer Furniture & Interior."
       }
     ]
   },
   {
-    "id": "l-shaped-sofas-02",
-    "slug": "l-shaped-sofas-prestige-02",
-    "name": "Savona Architectural Chaise Sofa",
+    "id": "day-and-night-l-shape-sofa-bed",
+    "slug": "day-and-night-l-shape-sofa-bed",
+    "name": "Day and Night L-Shape Sofa Bed",
     "categorySlug": "sofas",
     "subcategorySlug": "l-shape-sofas",
-    "shortDescription": "Streamlined contemporary L-couch featuring a floating low plinth, customizable left or right orientation.",
-    "description": "Streamlined contemporary L-couch featuring a floating low plinth, customizable left or right orientation. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
-    "price": 110000,
-    "originalPrice": 123200,
-    "discountPercent": 10,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=1200&q=80",
+    "shortDescription": "Multi-functional luxury corner sleeper sofa with gas-lift storage chaise, smooth pullout bed transformation, and orthopedic sleeping support.",
+    "description": "Engineered for contemporary Mumbai urban spaces, the Day and Night L-Shape Sofa Bed transitions effortlessly from an expansive family lounge sectional into a queen-size sleeping haven. Featuring concealed pneumatic storage inside the chaise lounge and heavy-duty steel glide hardware, it delivers uncompromising everyday lounging and guest sleeping comfort.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/l-shaped-sofas/day-and-night-l-shape-sofa-bed/01_white_bg.jpg",
+    "secondaryImage": "/images/products/l-shaped-sofas/day-and-night-l-shape-sofa-bed/02_interior.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=1200&q=80"
+      "/images/products/l-shaped-sofas/day-and-night-l-shape-sofa-bed/01_white_bg.jpg",
+      "/images/products/l-shaped-sofas/day-and-night-l-shape-sofa-bed/02_interior.jpg",
+      "/images/products/l-shaped-sofas/day-and-night-l-shape-sofa-bed/03_detail_angle.jpg"
     ],
-    "dimensions": "104\" W x 64\" D x 32\" H",
+    "dimensions": "",
     "materials": [
-      "Solid Oak",
-      "Stain-Resistant Linen",
-      "Pocket Spring Core"
+      "Heavy-Gauge Powder-Coated Steel Chassis",
+      "Kiln-Dried Hardwood Reinforcements",
+      "Orthopedic High-Resilience Sleep Foam",
+      "Breathable Heavy-Duty Performance Fabric"
     ],
-    "finish": "Natural Matte Hardwax / PU",
-    "colors": [
-      {
-        "name": "Charcoal Oak",
-        "hex": "#2A2A2A"
-      },
-      {
-        "name": "Natural Ash",
-        "hex": "#C2B280"
-      },
-      {
-        "name": "Mocha Boucl\u00e9",
-        "hex": "#795548"
-      }
-    ],
+    "finish": "Antirust Powder Coating & Matte Seal",
+    "colors": [],
     "isCustomizable": true,
     "inStock": true,
-    "careInstructions": "Clean with damp cloth and mild wood cleaner. Condition wood surfaces bi-annually.",
-    "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
+    "careInstructions": "Wipe down fabric with a slightly damp microfiber towel. Vacuum dust from mechanism tracks twice a year to ensure whisper-quiet gliding.",
+    "deliveryInfo": "White-glove delivery, room placement, mechanism calibration, and assembly across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "Can the chaise orientation of the Day and Night L-Shape Sofa Bed be ordered in left or right configuration?",
+        "answer": "Yes, during order confirmation with our Mumbai workshop team, you can specify whether you require a left-hand or right-hand chaise layout to perfectly match your living room floor plan."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Can the dimensions of the Day and Night L-Shape Sofa Bed be customized for my living room?",
+        "answer": "All sectional lengths, depths, backrest heights, and chaise extension lengths can be custom-tailored in our factory. We encourage you to measure your available room space and confirm your exact architectural dimensions with our showroom."
+      },
+      {
+        "question": "What upholstery fabrics and textures can I enquire about for the Day and Night L-Shape Sofa Bed?",
+        "answer": "We offer an extensive swatch library including Belgian stain-resistant linens, textured bouclés, high-rub velvets, chenilles, and performance faux leathers in dozens of designer colorways. Please confirm current fabric availability with the showroom."
+      },
+      {
+        "question": "What internal frame and timber materials are used in the Day and Night L-Shape Sofa Bed?",
+        "answer": "The frame is constructed with seasoned solid timber joinery reinforced with corner blocks built to support everyday family lounging. Please confirm specific timber species and internal frame specifications with our team."
+      },
+      {
+        "question": "What cushioning and foam densities are used for seating comfort?",
+        "answer": "Seating layers are engineered with high-resilience contour foams and support springing for balanced ergonomic comfort. Firmness levels can be confirmed or customized with our showroom consultants."
+      },
+      {
+        "question": "How should I measure my room passages and elevators for delivery?",
+        "answer": "We recommend measuring doorways, staircase turning points, and lift door dimensions. Our Mumbai delivery team will review building access to ensure modular sections navigate into your home smoothly."
+      },
+      {
+        "question": "How should I clean and maintain the Day and Night L-Shape Sofa Bed?",
+        "answer": "Dust regularly with a soft dry microfiber cloth. Spot clean accidental spills immediately with a mild damp cloth without harsh chemicals. Professional dry cleaning or extraction is recommended annually."
+      },
+      {
+        "question": "How do I confirm the current price, delivery timelines, and warranty?",
+        "answer": "Prices, delivery schedules, and structural warranty coverage vary depending on selected dimensions and upholstery materials. Click the WhatsApp enquiry button to confirm pricing, lead time, and warranty terms directly with Designer Furniture & Interior."
       }
     ]
   },
   {
-    "id": "sofa-cum-beds-01",
-    "slug": "sofa-cum-beds-signature-01",
-    "name": "Verona Hydraulic Sofa Cum Bed",
+    "id": "luna-l-shape-sofa",
+    "slug": "luna-l-shape-sofa",
+    "name": "Luna L-Shape Sofa",
+    "categorySlug": "sofas",
+    "subcategorySlug": "l-shape-sofas",
+    "shortDescription": "Sculptural contemporary curved sectional with organic silhouette, tailored channel contours, and cloud-like lounge ergonomics.",
+    "description": "The Luna L-Shape Sofa introduces fluid, sculptural elegance to Mumbai luxury residences. Handcrafted with bespoke curved timber framing and tailored multi-density comfort cushioning, its continuous architectural sweeping profile creates an inviting conversation hub without sharp visual breaks.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/l-shaped-sofas/luna-l-shape-sofa/01_white_bg.jpg",
+    "secondaryImage": "/images/products/l-shaped-sofas/luna-l-shape-sofa/02_interior.jpg",
+    "images": [
+      "/images/products/l-shaped-sofas/luna-l-shape-sofa/01_white_bg.jpg",
+      "/images/products/l-shaped-sofas/luna-l-shape-sofa/02_interior.jpg",
+      "/images/products/l-shaped-sofas/luna-l-shape-sofa/03_detail_angle.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Precision-Machined Hardwood Curved Substructure",
+      "Multilayer Cloud-Resilience Ergonomic Foam",
+      "Tactile Belgian Textured Bouclé / Chenille",
+      "Concealed Modular Interlocking Connectors"
+    ],
+    "finish": "Hand-Applied Invisible Natural Seal",
+    "colors": [],
+    "isCustomizable": true,
+    "inStock": true,
+    "careInstructions": "Gently vacuum bouclé or textured upholstery with a soft brush attachment. Avoid direct intense solar radiation to protect fabric luster.",
+    "deliveryInfo": "White-glove delivery, room placement, and seamless modular connection across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
+    "faqs": [
+      {
+        "question": "Can the chaise orientation of the Luna L-Shape Sofa be ordered in left or right configuration?",
+        "answer": "Yes, during order confirmation with our Mumbai workshop team, you can specify whether you require a left-hand or right-hand chaise layout to perfectly match your living room floor plan."
+      },
+      {
+        "question": "Can the dimensions of the Luna L-Shape Sofa be customized for my living room?",
+        "answer": "All sectional lengths, depths, backrest heights, and chaise extension lengths can be custom-tailored in our factory. We encourage you to measure your available room space and confirm your exact architectural dimensions with our showroom."
+      },
+      {
+        "question": "What upholstery fabrics and textures can I enquire about for the Luna L-Shape Sofa?",
+        "answer": "We offer an extensive swatch library including Belgian stain-resistant linens, textured bouclés, high-rub velvets, chenilles, and performance faux leathers in dozens of designer colorways. Please confirm current fabric availability with the showroom."
+      },
+      {
+        "question": "What internal frame and timber materials are used in the Luna L-Shape Sofa?",
+        "answer": "The frame is constructed with seasoned solid timber joinery reinforced with corner blocks built to support everyday family lounging. Please confirm specific timber species and internal frame specifications with our team."
+      },
+      {
+        "question": "What cushioning and foam densities are used for seating comfort?",
+        "answer": "Seating layers are engineered with high-resilience contour foams and support springing for balanced ergonomic comfort. Firmness levels can be confirmed or customized with our showroom consultants."
+      },
+      {
+        "question": "How should I measure my room passages and elevators for delivery?",
+        "answer": "We recommend measuring doorways, staircase turning points, and lift door dimensions. Our Mumbai delivery team will review building access to ensure modular sections navigate into your home smoothly."
+      },
+      {
+        "question": "How should I clean and maintain the Luna L-Shape Sofa?",
+        "answer": "Dust regularly with a soft dry microfiber cloth. Spot clean accidental spills immediately with a mild damp cloth without harsh chemicals. Professional dry cleaning or extraction is recommended annually."
+      },
+      {
+        "question": "How do I confirm the current price, delivery timelines, and warranty?",
+        "answer": "Prices, delivery schedules, and structural warranty coverage vary depending on selected dimensions and upholstery materials. Click the WhatsApp enquiry button to confirm pricing, lead time, and warranty terms directly with Designer Furniture & Interior."
+      }
+    ]
+  },
+  {
+    "id": "walnut-majesty-l-shape-sofa",
+    "slug": "walnut-majesty-l-shape-sofa",
+    "name": "Walnut Majesty L-Shape Sofa",
+    "categorySlug": "sofas",
+    "subcategorySlug": "l-shape-sofas",
+    "shortDescription": "Aristocratic luxury corner suite highlighted by an exposed solid walnut base plinth, tailored architectural piping, and deep supportive seating.",
+    "description": "The Walnut Majesty L-Shape Sofa unites the warmth of natural solid timber joinery with opulent tailored upholstery. Handcrafted in Mumbai with an exposed solid American walnut perimeter base and kiln-dried internal hardwood framing, this sectional delivers unmatched spatial dignity and enduring comfort.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/l-shaped-sofas/walnut-majesty-l-shape-sofa/01_white_bg.jpg",
+    "secondaryImage": "/images/products/l-shaped-sofas/walnut-majesty-l-shape-sofa/02_interior.jpg",
+    "images": [
+      "/images/products/l-shaped-sofas/walnut-majesty-l-shape-sofa/01_white_bg.jpg",
+      "/images/products/l-shaped-sofas/walnut-majesty-l-shape-sofa/02_interior.jpg",
+      "/images/products/l-shaped-sofas/walnut-majesty-l-shape-sofa/03_detail_angle.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Solid Walnut Perimeter Base & Solid Teak Joinery",
+      "High-Resilience 45-Density Core & Pocket Springs",
+      "Belgian Linen Blend & Top-Grain Leather Accents",
+      "Mortise-and-Tenon Locked Corner Blocks"
+    ],
+    "finish": "Hand-Rubbed Organic Oil & Satin PU Seal",
+    "colors": [],
+    "isCustomizable": true,
+    "inStock": true,
+    "careInstructions": "Wipe exposed timber plinth with a dry cotton cloth. Condition timber annually with natural wood balm. Dry clean cushion covers.",
+    "deliveryInfo": "White-glove delivery, room placement, and leveling across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
+    "faqs": [
+      {
+        "question": "Can the chaise orientation of the Walnut Majesty L-Shape Sofa be ordered in left or right configuration?",
+        "answer": "Yes, during order confirmation with our Mumbai workshop team, you can specify whether you require a left-hand or right-hand chaise layout to perfectly match your living room floor plan."
+      },
+      {
+        "question": "Can the dimensions of the Walnut Majesty L-Shape Sofa be customized for my living room?",
+        "answer": "All sectional lengths, depths, backrest heights, and chaise extension lengths can be custom-tailored in our factory. We encourage you to measure your available room space and confirm your exact architectural dimensions with our showroom."
+      },
+      {
+        "question": "What upholstery fabrics and textures can I enquire about for the Walnut Majesty L-Shape Sofa?",
+        "answer": "We offer an extensive swatch library including Belgian stain-resistant linens, textured bouclés, high-rub velvets, chenilles, and performance faux leathers in dozens of designer colorways. Please confirm current fabric availability with the showroom."
+      },
+      {
+        "question": "What internal frame and timber materials are used in the Walnut Majesty L-Shape Sofa?",
+        "answer": "The frame is constructed with seasoned solid timber joinery reinforced with corner blocks built to support everyday family lounging. Please confirm specific timber species and internal frame specifications with our team."
+      },
+      {
+        "question": "What cushioning and foam densities are used for seating comfort?",
+        "answer": "Seating layers are engineered with high-resilience contour foams and support springing for balanced ergonomic comfort. Firmness levels can be confirmed or customized with our showroom consultants."
+      },
+      {
+        "question": "How should I measure my room passages and elevators for delivery?",
+        "answer": "We recommend measuring doorways, staircase turning points, and lift door dimensions. Our Mumbai delivery team will review building access to ensure modular sections navigate into your home smoothly."
+      },
+      {
+        "question": "How should I clean and maintain the Walnut Majesty L-Shape Sofa?",
+        "answer": "Dust regularly with a soft dry microfiber cloth. Spot clean accidental spills immediately with a mild damp cloth without harsh chemicals. Professional dry cleaning or extraction is recommended annually."
+      },
+      {
+        "question": "How do I confirm the current price, delivery timelines, and warranty?",
+        "answer": "Prices, delivery schedules, and structural warranty coverage vary depending on selected dimensions and upholstery materials. Click the WhatsApp enquiry button to confirm pricing, lead time, and warranty terms directly with Designer Furniture & Interior."
+      }
+    ]
+  },
+  {
+    "id": "zen-sofa-cum-bed",
+    "slug": "zen-sofa-cum-bed",
+    "name": "Zen Sofa Cum Bed",
     "categorySlug": "sofas",
     "subcategorySlug": "sofa-cum-beds",
-    "shortDescription": "Seamless one-touch hydraulic mechanism that effortlessly transforms from a formal three-seater to a queen sleeper.",
-    "description": "Seamless one-touch hydraulic mechanism that effortlessly transforms from a formal three-seater to a queen sleeper. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
-    "price": 95000,
-    "originalPrice": 109250,
-    "discountPercent": 12,
-    "badge": "New",
-    "primaryImage": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1200&q=80",
+    "shortDescription": "Understated minimalist sofa-to-bed solution with silent sliding glide mechanism, orthopedic sleep density, and compact elegance.",
+    "description": "The Zen Sofa Cum Bed brings tranquil harmony and maximum living flexibility to modern apartments. Built in our Mumbai workshop with seasoned kiln-dried timber and whisper-quiet castor glide runners, it converts seamlessly between a formal three-seater couch and an orthopedic sleeping bed without disturbing floor surfaces.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-cum-beds/zen-sofa-cum-bed/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-cum-beds/zen-sofa-cum-bed/02_interior.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1200&q=80"
+      "/images/products/sofa-cum-beds/zen-sofa-cum-bed/01_white_bg.jpg",
+      "/images/products/sofa-cum-beds/zen-sofa-cum-bed/02_interior.jpg",
+      "/images/products/sofa-cum-beds/zen-sofa-cum-bed/03_detail_angle.jpg"
     ],
-    "dimensions": "86\" W x 38\" D x 35\" H (Bed: 60\" x 78\")",
+    "dimensions": "",
     "materials": [
-      "Steel Hydraulic Mechanism",
-      "High-Density Memory Foam",
-      "Performance Chenille"
+      "Kiln-Dried Hardwood Substructure",
+      "Silent Heavy-Duty Steel Glide Runners",
+      "Orthopedic High-Density Rebound Foam",
+      "Stain-Shielded Natural Weave Upholstery"
     ],
-    "finish": "Hand-Rubbed Satin PU Seal",
-    "colors": [
-      {
-        "name": "Warm Teak",
-        "hex": "#8B5A2B"
-      },
-      {
-        "name": "Smoked Walnut",
-        "hex": "#4A3B32"
-      },
-      {
-        "name": "Oatmeal Linen",
-        "hex": "#D2B48C"
-      }
-    ],
+    "finish": "Matte Timber Seal & Rustproof Hardware",
+    "colors": [],
     "isCustomizable": true,
     "inStock": true,
-    "careInstructions": "Dust with soft dry microfiber cloth. Avoid direct monsoon moisture exposure. Professional upholstery clean annually.",
-    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
+    "careInstructions": "Dust regularly with soft dry cloth. Spot clean upholstery with damp sponge. Keep roller tracks free from debris.",
+    "deliveryInfo": "White-glove delivery, room placement, and smooth glide testing across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How does the Zen Sofa Cum Bed convert between sofa and bed configurations?",
+        "answer": "The Zen Sofa Cum Bed is engineered with a smooth, balanced conversion mechanism that shifts from a formal sofa into a comfortable sleeping surface in seconds without complicated latches or heavy lifting."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "How much clearance should I allow in front of the Zen Sofa Cum Bed for the open bed?",
+        "answer": "You should allow enough forward clearance for the full mattress extension plus at least 20 to 24 inches of walking room around the open bed. Please confirm exact extended footprint measurements with our showroom."
+      },
+      {
+        "question": "Is the Zen Sofa Cum Bed suitable for regular or daily sleeping?",
+        "answer": "Yes, the sleeping deck is constructed with high-density supportive foam designed to provide uniform spinal support for restful overnight sleep without the uncomfortable dips of conventional temporary foldouts."
+      },
+      {
+        "question": "Does the Zen Sofa Cum Bed include integrated bedding storage?",
+        "answer": "Depending on the specific configuration and model design, under-seat storage compartments or drawer options may be available. Please check with our showroom whether storage is built into your selected configuration."
+      },
+      {
+        "question": "What upholstery fabrics and color options can I ask about?",
+        "answer": "We carry hundreds of stain-resistant velvets, textured weaves, linens, and durable performance fabrics suitable for convertible furniture. You can explore swatches and verify options with our team."
+      },
+      {
+        "question": "How are elevator access and room assembly handled across Mumbai and Thane?",
+        "answer": "Our dedicated Mumbai carpentry crew delivers the unit in manageable modular sections, bringing it up via lift or stairs and assembling the mechanism directly in your room of choice."
+      },
+      {
+        "question": "How should I clean and maintain the mechanism and fabric of the Zen Sofa Cum Bed?",
+        "answer": "Wipe the upholstery with a clean, slightly damp cloth and vacuum fabric seams gently. Keep the glide tracks clear of dust or debris to maintain effortless opening and closing."
+      },
+      {
+        "question": "How can I confirm current pricing, availability, and mechanism warranty?",
+        "answer": "Contact Designer Furniture & Interior via the WhatsApp enquiry button to confirm current quotes, estimated production timelines, and warranty coverage for the Zen Sofa Cum Bed."
       }
     ]
   },
   {
-    "id": "sofa-cum-beds-02",
-    "slug": "sofa-cum-beds-prestige-02",
-    "name": "Modena Storage Glide Daybed Couch",
+    "id": "pnd-sofa-cum-bed",
+    "slug": "pnd-sofa-cum-bed",
+    "name": "PND Sofa Cum Bed",
     "categorySlug": "sofas",
     "subcategorySlug": "sofa-cum-beds",
-    "shortDescription": "Under-seat concealed ottoman drawer with pull-out trundle mechanism, ideal for Mumbai compact apartments.",
-    "description": "Under-seat concealed ottoman drawer with pull-out trundle mechanism, ideal for Mumbai compact apartments. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
-    "price": 88000,
-    "originalPrice": 98560,
-    "discountPercent": 10,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+    "shortDescription": "Sleek tailored convertible sofa bed featuring precision welted trim, reinforced steel trundle glide, and ergonomic multi-zone posture support.",
+    "description": "The PND Sofa Cum Bed is purpose-engineered for discerning Mumbai homeowners who desire formal living-room aesthetics combined with immediate guest accommodation. Handcrafted with straight architectural lines, reinforced corner joints, and balanced glide tracks, it delivers effortless operation with zero structural compromise.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-cum-beds/pnd-sofa-cum-bed/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-cum-beds/pnd-sofa-cum-bed/02_interior.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
+      "/images/products/sofa-cum-beds/pnd-sofa-cum-bed/01_white_bg.jpg",
+      "/images/products/sofa-cum-beds/pnd-sofa-cum-bed/02_interior.jpg",
+      "/images/products/sofa-cum-beds/pnd-sofa-cum-bed/03_detail_angle.jpg"
     ],
-    "dimensions": "82\" W x 36\" D x 34\" H",
+    "dimensions": "",
     "materials": [
-      "Reinforced Hardwood",
-      "Orthopedic Foam",
-      "Textured Weave"
+      "Solid Timber Internal Core",
+      "High-Tensile Precision Rollers & Steel Slats",
+      "Multi-Density 40-Density HR Cushioning",
+      "Commercial Grade Anti-Pill Textured Fabric"
     ],
-    "finish": "Natural Matte Hardwax / PU",
-    "colors": [
-      {
-        "name": "Charcoal Oak",
-        "hex": "#2A2A2A"
-      },
-      {
-        "name": "Natural Ash",
-        "hex": "#C2B280"
-      },
-      {
-        "name": "Mocha Boucl\u00e9",
-        "hex": "#795548"
-      }
-    ],
+    "finish": "Electro-Coated Hardware & Satin Protective Seal",
+    "colors": [],
     "isCustomizable": true,
     "inStock": true,
-    "careInstructions": "Clean with damp cloth and mild wood cleaner. Condition wood surfaces bi-annually.",
-    "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
+    "careInstructions": "Vacuum lightly with an upholstery brush. Dab spills with absorbent cloth. Lubricate track hardware annually.",
+    "deliveryInfo": "White-glove delivery, room placement, and professional setup across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How does the PND Sofa Cum Bed convert between sofa and bed configurations?",
+        "answer": "The PND Sofa Cum Bed is engineered with a smooth, balanced conversion mechanism that shifts from a formal sofa into a comfortable sleeping surface in seconds without complicated latches or heavy lifting."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "How much clearance should I allow in front of the PND Sofa Cum Bed for the open bed?",
+        "answer": "You should allow enough forward clearance for the full mattress extension plus at least 20 to 24 inches of walking room around the open bed. Please confirm exact extended footprint measurements with our showroom."
+      },
+      {
+        "question": "Is the PND Sofa Cum Bed suitable for regular or daily sleeping?",
+        "answer": "Yes, the sleeping deck is constructed with high-density supportive foam designed to provide uniform spinal support for restful overnight sleep without the uncomfortable dips of conventional temporary foldouts."
+      },
+      {
+        "question": "Does the PND Sofa Cum Bed include integrated bedding storage?",
+        "answer": "Depending on the specific configuration and model design, under-seat storage compartments or drawer options may be available. Please check with our showroom whether storage is built into your selected configuration."
+      },
+      {
+        "question": "What upholstery fabrics and color options can I ask about?",
+        "answer": "We carry hundreds of stain-resistant velvets, textured weaves, linens, and durable performance fabrics suitable for convertible furniture. You can explore swatches and verify options with our team."
+      },
+      {
+        "question": "How are elevator access and room assembly handled across Mumbai and Thane?",
+        "answer": "Our dedicated Mumbai carpentry crew delivers the unit in manageable modular sections, bringing it up via lift or stairs and assembling the mechanism directly in your room of choice."
+      },
+      {
+        "question": "How should I clean and maintain the mechanism and fabric of the PND Sofa Cum Bed?",
+        "answer": "Wipe the upholstery with a clean, slightly damp cloth and vacuum fabric seams gently. Keep the glide tracks clear of dust or debris to maintain effortless opening and closing."
+      },
+      {
+        "question": "How can I confirm current pricing, availability, and mechanism warranty?",
+        "answer": "Contact Designer Furniture & Interior via the WhatsApp enquiry button to confirm current quotes, estimated production timelines, and warranty coverage for the PND Sofa Cum Bed."
       }
     ]
   },
-    {
-      "id": "crown-malaysian-comfort-sofa-set",
-      "slug": "crown-malaysian-comfort-sofa-set",
-      "name": "Crown Malaysian Comfort Sofa Set",
-      "categorySlug": "sofas",
-      "subcategorySlug": "sofa-sets",
-      "shortDescription": "Mastercrafted Malaysian-inspired luxury sofa suite featuring deep plush seating, ergonomic lumbar contouring, and artisan upholstery.",
-      "description": "The Crown Malaysian Comfort Sofa Set exemplifies master joinery and refined living room elegance. Handcrafted in our Mumbai workshop with kiln-dried solid hardwood framing, high-resilience foam layers, and luxury imported fabric, this suite offers sublime comfort for family living and distinguished entertaining.",
-      "price": null,
-      "originalPrice": null,
-      "discountPercent": null,
-      "badge": null,
-      "primaryImage": "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-white-background.jpg",
-      "secondaryImage": "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-premium-interior.jpg",
-      "images": [
-          "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-white-background.jpg",
-          "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-premium-interior.jpg",
-          "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-3-seater-front-view.jpg",
-          "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-3-seater-side-view.jpg",
-          "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-1-seater-front-view.jpg"
-      ],
-      "dimensions": "",
-      "materials": [
-          "Solid Seasoned Hardwood Frame",
-          "High-Resilience Contour Foam",
-          "Stain-Resistant Imported Velvet / Fabric"
-      ],
-      "finish": "Hand-Rubbed Natural Timber Seal",
-      "colors": [],
-      "isCustomizable": false,
-      "inStock": true,
-      "careInstructions": "Dust regularly with soft dry microfiber cloth. Professional upholstery cleaning recommended annually.",
-      "deliveryInfo": "White-glove delivery and assembly across Mumbai metropolitan region directly from our workshop.",
-      "faqs": [
-          {
-              "question": "Can this sofa set be customized in configuration?",
-              "answer": "Yes, you can configure 3-seater, 2-seater, or individual armchairs to match your floor plan."
-          },
-          {
-              "question": "Where is this manufactured?",
-              "answer": "100% fabricated in our Mumbai factory workshop with solid hardwood joinery."
-          }
-      ]
+  {
+    "id": "3-fold-single-x-cross-sofa-cum-bed",
+    "slug": "3-fold-single-x-cross-sofa-cum-bed",
+    "name": "3 Fold Single X Cross Sofa Cum Bed",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-cum-beds",
+    "shortDescription": "Compact architectural single-sleeper armchair couch with artisanal X-cross side bracing and three-tier foldout transformation.",
+    "description": "The 3 Fold Single X Cross Sofa Cum Bed solves space constraints with sculptural flair. Handcrafted with bespoke timber X-cross side lattices and a three-tier folding mattress structure, it serves as a plush reading armchair by day and expands effortlessly into an orthopedic single bed at night.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-cum-beds/3-fold-single-x-cross-sofa-cum-bed/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-cum-beds/3-fold-single-x-cross-sofa-cum-bed/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-cum-beds/3-fold-single-x-cross-sofa-cum-bed/01_white_bg.jpg",
+      "/images/products/sofa-cum-beds/3-fold-single-x-cross-sofa-cum-bed/02_interior.jpg",
+      "/images/products/sofa-cum-beds/3-fold-single-x-cross-sofa-cum-bed/03_detail_angle.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Artisan Handcrafted Solid Timber X-Cross Frames",
+      "Three-Tier Articulated Steel Folding Hardware",
+      "Orthopedic Dual-Density Mattress Slabs",
+      "Heavy-Duty Stain-Protected Designer Fabric"
+    ],
+    "finish": "Hand-Rubbed Natural Hardwax & Powder Coating",
+    "colors": [],
+    "isCustomizable": true,
+    "inStock": true,
+    "careInstructions": "Dust timber panels regularly. Sponge clean fabric gently with mild foam cleaner. Store bedding in dry conditions.",
+    "deliveryInfo": "White-glove delivery, room placement, and assembly across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
+    "faqs": [
+      {
+        "question": "How does the 3 Fold Single X Cross Sofa Cum Bed convert between sofa and bed configurations?",
+        "answer": "The 3 Fold Single X Cross Sofa Cum Bed is engineered with a smooth, balanced conversion mechanism that shifts from a formal sofa into a comfortable sleeping surface in seconds without complicated latches or heavy lifting."
+      },
+      {
+        "question": "How much clearance should I allow in front of the 3 Fold Single X Cross Sofa Cum Bed for the open bed?",
+        "answer": "You should allow enough forward clearance for the full mattress extension plus at least 20 to 24 inches of walking room around the open bed. Please confirm exact extended footprint measurements with our showroom."
+      },
+      {
+        "question": "Is the 3 Fold Single X Cross Sofa Cum Bed suitable for regular or daily sleeping?",
+        "answer": "Yes, the sleeping deck is constructed with high-density supportive foam designed to provide uniform spinal support for restful overnight sleep without the uncomfortable dips of conventional temporary foldouts."
+      },
+      {
+        "question": "Does the 3 Fold Single X Cross Sofa Cum Bed include integrated bedding storage?",
+        "answer": "Depending on the specific configuration and model design, under-seat storage compartments or drawer options may be available. Please check with our showroom whether storage is built into your selected configuration."
+      },
+      {
+        "question": "What upholstery fabrics and color options can I ask about?",
+        "answer": "We carry hundreds of stain-resistant velvets, textured weaves, linens, and durable performance fabrics suitable for convertible furniture. You can explore swatches and verify options with our team."
+      },
+      {
+        "question": "How are elevator access and room assembly handled across Mumbai and Thane?",
+        "answer": "Our dedicated Mumbai carpentry crew delivers the unit in manageable modular sections, bringing it up via lift or stairs and assembling the mechanism directly in your room of choice."
+      },
+      {
+        "question": "How should I clean and maintain the mechanism and fabric of the 3 Fold Single X Cross Sofa Cum Bed?",
+        "answer": "Wipe the upholstery with a clean, slightly damp cloth and vacuum fabric seams gently. Keep the glide tracks clear of dust or debris to maintain effortless opening and closing."
+      },
+      {
+        "question": "How can I confirm current pricing, availability, and mechanism warranty?",
+        "answer": "Contact Designer Furniture & Interior via the WhatsApp enquiry button to confirm current quotes, estimated production timelines, and warranty coverage for the 3 Fold Single X Cross Sofa Cum Bed."
+      }
+    ]
   },
   {
-      "id": "two-tone-sofa-set",
-      "slug": "two-tone-sofa-set",
-      "name": "Two Tone Sofa Set",
-      "categorySlug": "sofas",
-      "subcategorySlug": "sofa-sets",
-      "shortDescription": "Sophisticated dual-palette contemporary sofa set with tailored contrast piping, supportive cushions, and reinforced solid frame.",
-      "description": "Designed for distinguished Mumbai interiors, the Two Tone Sofa Set pairs complementary tonal upholstery textures with tailored architectural contours. Every joint is mortise-and-tenon locked inside our Mumbai workshop for enduring durability.",
-      "price": null,
-      "originalPrice": null,
-      "discountPercent": null,
-      "badge": null,
-      "primaryImage": "/images/products/sofa-sets/two-tone-sofa-set/01_white_bg.jpg",
-      "secondaryImage": "/images/products/sofa-sets/two-tone-sofa-set/02_interior.jpg",
-      "images": [
-          "/images/products/sofa-sets/two-tone-sofa-set/01_white_bg.jpg",
-          "/images/products/sofa-sets/two-tone-sofa-set/02_interior.jpg",
-          "/images/products/sofa-sets/two-tone-sofa-set/03_3seater_front.jpg",
-          "/images/products/sofa-sets/two-tone-sofa-set/04_3seater_side.jpg",
-          "/images/products/sofa-sets/two-tone-sofa-set/05_1seater_front.jpg"
-      ],
-      "dimensions": "",
-      "materials": [
-          "Solid Hardwood Internal Core",
-          "Pocket Spring & HR Foam Layers",
-          "Two-Tone Textured Chenille"
-      ],
-      "finish": "Satin Protective Seal",
-      "colors": [],
-      "isCustomizable": false,
-      "inStock": true,
-      "careInstructions": "Spot clean spills immediately with mild damp cloth. Keep away from direct harsh sunlight.",
-      "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane.",
-      "faqs": [
-          {
-              "question": "Can I choose my two tone colors?",
-              "answer": "Yes! You can choose two complementary tones from our extensive fabric swatch deck."
-          },
-          {
-              "question": "What warranty is offered?",
-              "answer": "We offer a 5-year structural warranty on the timber framing and joinery."
-          }
-      ]
+    "id": "rose-luxe-sofa-cum-bed",
+    "slug": "rose-luxe-sofa-cum-bed",
+    "name": "Rose Luxe Sofa Cum Bed",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-cum-beds",
+    "shortDescription": "Opulent boutique hotel silhouette with channel-tufted fluted contours, seamless reclining glide bed conversion, and feather-soft touch.",
+    "description": "The Rose Luxe Sofa Cum Bed delivers pure glamour and tactile indulgence to luxury Mumbai homes. Handcrafted with sculpted channel fluting and imported plush velvet upholstery, its precision multi-position recline mechanism shifts smoothly between formal sitting, deep lounging, and full flat luxury bed rest.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-cum-beds/rose-luxe-sofa-cum-bed/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-cum-beds/rose-luxe-sofa-cum-bed/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-cum-beds/rose-luxe-sofa-cum-bed/01_white_bg.jpg",
+      "/images/products/sofa-cum-beds/rose-luxe-sofa-cum-bed/02_interior.jpg",
+      "/images/products/sofa-cum-beds/rose-luxe-sofa-cum-bed/03_detail_angle.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Kiln-Dried Seasoned Hardwood Internal Framework",
+      "Multi-Position High-Torque Reclining Hinges",
+      "High-Resilience Memory Cushion Layering",
+      "Imported High-Rub Luxury Fluted Velvet"
+    ],
+    "finish": "Hand-Sealed Timber Core & Brass Foot Accents",
+    "colors": [],
+    "isCustomizable": true,
+    "inStock": true,
+    "careInstructions": "Brush velvet pile gently in one direction with a specialized velvet brush. Do not apply harsh bleach or solvent cleaners.",
+    "deliveryInfo": "White-glove delivery, room placement, and setup across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
+    "faqs": [
+      {
+        "question": "How does the Rose Luxe Sofa Cum Bed convert between sofa and bed configurations?",
+        "answer": "The Rose Luxe Sofa Cum Bed is engineered with a smooth, balanced conversion mechanism that shifts from a formal sofa into a comfortable sleeping surface in seconds without complicated latches or heavy lifting."
+      },
+      {
+        "question": "How much clearance should I allow in front of the Rose Luxe Sofa Cum Bed for the open bed?",
+        "answer": "You should allow enough forward clearance for the full mattress extension plus at least 20 to 24 inches of walking room around the open bed. Please confirm exact extended footprint measurements with our showroom."
+      },
+      {
+        "question": "Is the Rose Luxe Sofa Cum Bed suitable for regular or daily sleeping?",
+        "answer": "Yes, the sleeping deck is constructed with high-density supportive foam designed to provide uniform spinal support for restful overnight sleep without the uncomfortable dips of conventional temporary foldouts."
+      },
+      {
+        "question": "Does the Rose Luxe Sofa Cum Bed include integrated bedding storage?",
+        "answer": "Depending on the specific configuration and model design, under-seat storage compartments or drawer options may be available. Please check with our showroom whether storage is built into your selected configuration."
+      },
+      {
+        "question": "What upholstery fabrics and color options can I ask about?",
+        "answer": "We carry hundreds of stain-resistant velvets, textured weaves, linens, and durable performance fabrics suitable for convertible furniture. You can explore swatches and verify options with our team."
+      },
+      {
+        "question": "How are elevator access and room assembly handled across Mumbai and Thane?",
+        "answer": "Our dedicated Mumbai carpentry crew delivers the unit in manageable modular sections, bringing it up via lift or stairs and assembling the mechanism directly in your room of choice."
+      },
+      {
+        "question": "How should I clean and maintain the mechanism and fabric of the Rose Luxe Sofa Cum Bed?",
+        "answer": "Wipe the upholstery with a clean, slightly damp cloth and vacuum fabric seams gently. Keep the glide tracks clear of dust or debris to maintain effortless opening and closing."
+      },
+      {
+        "question": "How can I confirm current pricing, availability, and mechanism warranty?",
+        "answer": "Contact Designer Furniture & Interior via the WhatsApp enquiry button to confirm current quotes, estimated production timelines, and warranty coverage for the Rose Luxe Sofa Cum Bed."
+      }
+    ]
   },
   {
-      "id": "new-zen-sofa-set",
-      "slug": "new-zen-sofa-set",
-      "name": "New Zen Sofa Set",
-      "categorySlug": "sofas",
-      "subcategorySlug": "sofa-sets",
-      "shortDescription": "Serene minimalist silhouette engineered with low-profile balance, deep ergonomic seating, and understated tranquility.",
-      "description": "The New Zen Sofa Set brings a calming aesthetic balance to modern living rooms. Handcrafted with high-density multilayer foam, breathable natural textiles, and seasoned internal timber framing.",
-      "price": null,
-      "originalPrice": null,
-      "discountPercent": null,
-      "badge": null,
-      "primaryImage": "/images/products/sofa-sets/new-zen-sofa-set/01_white_bg.jpg",
-      "secondaryImage": "/images/products/sofa-sets/new-zen-sofa-set/02_interior.jpg",
-      "images": [
-          "/images/products/sofa-sets/new-zen-sofa-set/01_white_bg.jpg",
-          "/images/products/sofa-sets/new-zen-sofa-set/02_interior.jpg",
-          "/images/products/sofa-sets/new-zen-sofa-set/03_3seater_front.jpg",
-          "/images/products/sofa-sets/new-zen-sofa-set/04_3seater_side.jpg",
-          "/images/products/sofa-sets/new-zen-sofa-set/05_1seater_front.jpg"
-      ],
-      "dimensions": "",
-      "materials": [
-          "Kiln-Dried Teak Base",
-          "Orthopedic Resilience Cushioning",
-          "Belgian Linen & Cotton Blend"
-      ],
-      "finish": "Natural Low-Sheen Wood Seal",
-      "colors": [],
-      "isCustomizable": false,
-      "inStock": true,
-      "careInstructions": "Vacuum gently using soft brush attachment. Professional dry clean recommended.",
-      "deliveryInfo": "White-glove delivery by our Mumbai workshop carpenters.",
-      "faqs": [
-          {
-              "question": "Is the seating firm or plush?",
-              "answer": "It features balanced medium-firm core support with a plush surface wrap."
-          },
-          {
-              "question": "Can this be made in custom dimensions?",
-              "answer": "Yes, bespoke room scaling is available upon enquiry."
-          }
-      ]
+    "id": "new-zen-sofa-cum-bed",
+    "slug": "new-zen-sofa-cum-bed",
+    "name": "New Zen Sofa Cum Bed",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-cum-beds",
+    "shortDescription": "Next-generation forward-gliding sofa sleeper with pillow-top armrests, upgraded quiet tracks, and plush multi-layer mattress support.",
+    "description": "The New Zen Sofa Cum Bed elevates our classic minimalist convertible concept with enhanced ergonomics, wider plush armrests, and an upgraded forward-glide chassis. Designed for seamless placement flush against apartment walls, it converts without demanding rear clearance, making it an extraordinary choice for Mumbai living rooms and master studies.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-cum-beds/new-zen-sofa-cum-bed/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-cum-beds/new-zen-sofa-cum-bed/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-cum-beds/new-zen-sofa-cum-bed/01_white_bg.jpg",
+      "/images/products/sofa-cum-beds/new-zen-sofa-cum-bed/02_interior.jpg",
+      "/images/products/sofa-cum-beds/new-zen-sofa-cum-bed/03_detail_angle.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Solid Seasoned Hardwood & Heavy Steel Sub-Chassis",
+      "Sealed Ball-Bearing Low-Friction Floor Castors",
+      "7-Inch Orthopedic Dual-Layer Core Foam",
+      "Stain-Guarded Textured Linen-Chenille Blend"
+    ],
+    "finish": "Hand-Rubbed Protective Seal & Anti-Corrosion Tracks",
+    "colors": [],
+    "isCustomizable": true,
+    "inStock": true,
+    "careInstructions": "Vacuum cushions with low suction brush. Wipe frame and tracks with dry cotton cloth. Spot clean fabric stains promptly.",
+    "deliveryInfo": "White-glove delivery, room placement, and precision glide calibration across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
+    "faqs": [
+      {
+        "question": "How does the New Zen Sofa Cum Bed convert between sofa and bed configurations?",
+        "answer": "The New Zen Sofa Cum Bed is engineered with a smooth, balanced conversion mechanism that shifts from a formal sofa into a comfortable sleeping surface in seconds without complicated latches or heavy lifting."
+      },
+      {
+        "question": "How much clearance should I allow in front of the New Zen Sofa Cum Bed for the open bed?",
+        "answer": "You should allow enough forward clearance for the full mattress extension plus at least 20 to 24 inches of walking room around the open bed. Please confirm exact extended footprint measurements with our showroom."
+      },
+      {
+        "question": "Is the New Zen Sofa Cum Bed suitable for regular or daily sleeping?",
+        "answer": "Yes, the sleeping deck is constructed with high-density supportive foam designed to provide uniform spinal support for restful overnight sleep without the uncomfortable dips of conventional temporary foldouts."
+      },
+      {
+        "question": "Does the New Zen Sofa Cum Bed include integrated bedding storage?",
+        "answer": "Depending on the specific configuration and model design, under-seat storage compartments or drawer options may be available. Please check with our showroom whether storage is built into your selected configuration."
+      },
+      {
+        "question": "What upholstery fabrics and color options can I ask about?",
+        "answer": "We carry hundreds of stain-resistant velvets, textured weaves, linens, and durable performance fabrics suitable for convertible furniture. You can explore swatches and verify options with our team."
+      },
+      {
+        "question": "How are elevator access and room assembly handled across Mumbai and Thane?",
+        "answer": "Our dedicated Mumbai carpentry crew delivers the unit in manageable modular sections, bringing it up via lift or stairs and assembling the mechanism directly in your room of choice."
+      },
+      {
+        "question": "How should I clean and maintain the mechanism and fabric of the New Zen Sofa Cum Bed?",
+        "answer": "Wipe the upholstery with a clean, slightly damp cloth and vacuum fabric seams gently. Keep the glide tracks clear of dust or debris to maintain effortless opening and closing."
+      },
+      {
+        "question": "How can I confirm current pricing, availability, and mechanism warranty?",
+        "answer": "Contact Designer Furniture & Interior via the WhatsApp enquiry button to confirm current quotes, estimated production timelines, and warranty coverage for the New Zen Sofa Cum Bed."
+      }
+    ]
   },
   {
-      "id": "magrack-sofa-set",
-      "slug": "magrack-sofa-set",
-      "name": "MAGRACK SOFA SET",
-      "categorySlug": "sofas",
-      "subcategorySlug": "sofa-sets",
-      "shortDescription": "Functional luxury sofa suite with integrated side storage rack, plush bolster armrests, and handcrafted timber accents.",
-      "description": "The MAGRACK Sofa Set combines clever magazine/book side storage with lavish, high-resilience seating comfort. Engineered in our Santacruz West facility with premium joinery and bespoke fabric finishing.",
-      "price": null,
-      "originalPrice": null,
-      "discountPercent": null,
-      "badge": null,
-      "primaryImage": "/images/products/sofa-sets/magrack-sofa-set/01_white_bg.jpg",
-      "secondaryImage": "/images/products/sofa-sets/magrack-sofa-set/02_interior.jpg",
-      "images": [
-          "/images/products/sofa-sets/magrack-sofa-set/01_white_bg.jpg",
-          "/images/products/sofa-sets/magrack-sofa-set/02_interior.jpg",
-          "/images/products/sofa-sets/magrack-sofa-set/03_3seater_front.jpg",
-          "/images/products/sofa-sets/magrack-sofa-set/04_3seater_side.jpg",
-          "/images/products/sofa-sets/magrack-sofa-set/05_1seater_front.jpg"
-      ],
-      "dimensions": "",
-      "materials": [
-          "Solid Seasoned Wood Framework",
-          "Integrated Side Timber Magazine Rack",
-          "High-Density Seating Cores"
-      ],
-      "finish": "Hand-Polished Hardwax Finish",
-      "colors": [],
-      "isCustomizable": false,
-      "inStock": true,
-      "careInstructions": "Wipe wood elements with dry cloth. Spot clean upholstery with foam cleaner.",
-      "deliveryInfo": "Direct factory delivery and on-site positioning by workshop staff.",
-      "faqs": [
-          {
-              "question": "Can the magazine rack be on either side?",
-              "answer": "Yes, rack positioning can be customized for your room layout."
-          },
-          {
-              "question": "What materials are used for the rack?",
-              "answer": "Solid seasoned timber matching your chosen wood stain."
-          }
-      ]
+    "id": "double-x-cross-sofa-cum-bed",
+    "slug": "double-x-cross-sofa-cum-bed",
+    "name": "Double X Cross Sofa Cum Bed",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-cum-beds",
+    "shortDescription": "Statement artisan sofa bed with dual geometric X-truss timber flanks, heavy-duty pullout trundle, and generous double sleeper deck.",
+    "description": "The Double X Cross Sofa Cum Bed celebrates traditional joinery artistry merged with modern space engineering. Featuring bold double X-truss side frames handcrafted from solid seasoned timber and an effortless pullout trundle bed, this design makes an imposing architectural statement in living rooms and multi-use guest lounges.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-cum-beds/double-x-cross-sofa-cum-bed/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-cum-beds/double-x-cross-sofa-cum-bed/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-cum-beds/double-x-cross-sofa-cum-bed/01_white_bg.jpg",
+      "/images/products/sofa-cum-beds/double-x-cross-sofa-cum-bed/02_interior.jpg",
+      "/images/products/sofa-cum-beds/double-x-cross-sofa-cum-bed/03_detail_angle.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Solid Timber Double X-Truss Flank Architecture",
+      "Reinforced Steel Trundle Frame & Slats",
+      "High-Density Orthopedic 40D Mattress Core",
+      "Commercial-Grade Anti-Stain Luxury Woven Fabric"
+    ],
+    "finish": "Natural Teak / Walnut Matte Luster Finish",
+    "colors": [],
+    "isCustomizable": true,
+    "inStock": true,
+    "careInstructions": "Dust timber woodwork with soft lint-free cloth. Wipe spills on upholstery immediately with damp cloth. Avoid harsh chemicals.",
+    "deliveryInfo": "White-glove delivery, room placement, and full on-site assembly across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
+    "faqs": [
+      {
+        "question": "How does the Double X Cross Sofa Cum Bed convert between sofa and bed configurations?",
+        "answer": "The Double X Cross Sofa Cum Bed is engineered with a smooth, balanced conversion mechanism that shifts from a formal sofa into a comfortable sleeping surface in seconds without complicated latches or heavy lifting."
+      },
+      {
+        "question": "How much clearance should I allow in front of the Double X Cross Sofa Cum Bed for the open bed?",
+        "answer": "You should allow enough forward clearance for the full mattress extension plus at least 20 to 24 inches of walking room around the open bed. Please confirm exact extended footprint measurements with our showroom."
+      },
+      {
+        "question": "Is the Double X Cross Sofa Cum Bed suitable for regular or daily sleeping?",
+        "answer": "Yes, the sleeping deck is constructed with high-density supportive foam designed to provide uniform spinal support for restful overnight sleep without the uncomfortable dips of conventional temporary foldouts."
+      },
+      {
+        "question": "Does the Double X Cross Sofa Cum Bed include integrated bedding storage?",
+        "answer": "Depending on the specific configuration and model design, under-seat storage compartments or drawer options may be available. Please check with our showroom whether storage is built into your selected configuration."
+      },
+      {
+        "question": "What upholstery fabrics and color options can I ask about?",
+        "answer": "We carry hundreds of stain-resistant velvets, textured weaves, linens, and durable performance fabrics suitable for convertible furniture. You can explore swatches and verify options with our team."
+      },
+      {
+        "question": "How are elevator access and room assembly handled across Mumbai and Thane?",
+        "answer": "Our dedicated Mumbai carpentry crew delivers the unit in manageable modular sections, bringing it up via lift or stairs and assembling the mechanism directly in your room of choice."
+      },
+      {
+        "question": "How should I clean and maintain the mechanism and fabric of the Double X Cross Sofa Cum Bed?",
+        "answer": "Wipe the upholstery with a clean, slightly damp cloth and vacuum fabric seams gently. Keep the glide tracks clear of dust or debris to maintain effortless opening and closing."
+      },
+      {
+        "question": "How can I confirm current pricing, availability, and mechanism warranty?",
+        "answer": "Contact Designer Furniture & Interior via the WhatsApp enquiry button to confirm current quotes, estimated production timelines, and warranty coverage for the Double X Cross Sofa Cum Bed."
+      }
+    ]
   },
   {
-      "id": "pnd-sofa-set",
-      "slug": "pnd-sofa-set",
-      "name": "PND SOFA SET",
-      "categorySlug": "sofas",
-      "subcategorySlug": "sofa-sets",
-      "shortDescription": "Distinctive designer profile featuring bold sculptural lines, deep cushioned seats, and durable workshop craftsmanship.",
-      "description": "Handcrafted to order at our Mumbai workshop, the PND Sofa Set delivers a commanding living room statement with high-density core cushioning and precision seam tailoring.",
-      "price": null,
-      "originalPrice": null,
-      "discountPercent": null,
-      "badge": null,
-      "primaryImage": "/images/products/sofa-sets/pnd-sofa-set/01_white_bg.jpg",
-      "secondaryImage": "/images/products/sofa-sets/pnd-sofa-set/02_interior.jpg",
-      "images": [
-          "/images/products/sofa-sets/pnd-sofa-set/01_white_bg.jpg",
-          "/images/products/sofa-sets/pnd-sofa-set/02_interior.jpg",
-          "/images/products/sofa-sets/pnd-sofa-set/03_3seater_front.jpg",
-          "/images/products/sofa-sets/pnd-sofa-set/04_3seater_side.jpg",
-          "/images/products/sofa-sets/pnd-sofa-set/05_1seater_front.jpg"
-      ],
-      "dimensions": "",
-      "materials": [
-          "Seasoned Hardwood Construction",
-          "Multi-Layer Comfort Foam",
-          "Designer Woven Texture"
-      ],
-      "finish": "Matte PU Seal",
-      "colors": [],
-      "isCustomizable": false,
-      "inStock": true,
-      "careInstructions": "Keep away from excessive dampness. Use dry cleaning methods for fabric.",
-      "deliveryInfo": "White-glove delivery across Greater Mumbai.",
-      "faqs": [
-          {
-              "question": "Is fabric protection treatment applied?",
-              "answer": "Yes, fabrics are treated for everyday stain resistance."
-          },
-          {
-              "question": "Are custom seat cushions available?",
-              "answer": "Yes, choose from soft feather-blend or firm high-density foam."
-          }
-      ]
+    "id": "super-saver-sofa-cum-bed",
+    "slug": "super-saver-sofa-cum-bed",
+    "name": "Super Saver Sofa Cum Bed",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-cum-beds",
+    "shortDescription": "Ultra-smart convertible couch with under-seat storage drawer, single-handed glide transformation, and durable high-resilience foam.",
+    "description": "The Super Saver Sofa Cum Bed is engineered to deliver maximum value, utility, and comfort for Mumbai urban living. Combining a generous three-seater sofa, a queen-sized sleeper, and integrated under-seat bedding storage into a sleek footprint, it represents the pinnacle of intelligent space-saving furniture.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-cum-beds/super-saver-sofa-cum-bed/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-cum-beds/super-saver-sofa-cum-bed/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-cum-beds/super-saver-sofa-cum-bed/01_white_bg.jpg",
+      "/images/products/sofa-cum-beds/super-saver-sofa-cum-bed/02_interior.jpg",
+      "/images/products/sofa-cum-beds/super-saver-sofa-cum-bed/03_detail_angle.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Hardwood Core Frame & Solid Joint Reinforcements",
+      "Concealed Under-Seat Storage Trunk",
+      "Counterbalanced Smooth Glide Hardware",
+      "Heavy-Duty Stain-Resistant Performance Upholstery"
+    ],
+    "finish": "Protective Satin Wood Seal & Electro-Plated Tracks",
+    "colors": [],
+    "isCustomizable": true,
+    "inStock": true,
+    "careInstructions": "Vacuum fabric periodically. Clean spills with a clean, slightly damp sponge. Open storage trunk to air out bedding regularly.",
+    "deliveryInfo": "White-glove delivery, room placement, and full mechanism demonstration across Mumbai, Navi Mumbai, and Thane directly from our workshop.",
+    "faqs": [
+      {
+        "question": "How does the Super Saver Sofa Cum Bed convert between sofa and bed configurations?",
+        "answer": "The Super Saver Sofa Cum Bed is engineered with a smooth, balanced conversion mechanism that shifts from a formal sofa into a comfortable sleeping surface in seconds without complicated latches or heavy lifting."
+      },
+      {
+        "question": "How much clearance should I allow in front of the Super Saver Sofa Cum Bed for the open bed?",
+        "answer": "You should allow enough forward clearance for the full mattress extension plus at least 20 to 24 inches of walking room around the open bed. Please confirm exact extended footprint measurements with our showroom."
+      },
+      {
+        "question": "Is the Super Saver Sofa Cum Bed suitable for regular or daily sleeping?",
+        "answer": "Yes, the sleeping deck is constructed with high-density supportive foam designed to provide uniform spinal support for restful overnight sleep without the uncomfortable dips of conventional temporary foldouts."
+      },
+      {
+        "question": "Does the Super Saver Sofa Cum Bed include integrated bedding storage?",
+        "answer": "Depending on the specific configuration and model design, under-seat storage compartments or drawer options may be available. Please check with our showroom whether storage is built into your selected configuration."
+      },
+      {
+        "question": "What upholstery fabrics and color options can I ask about?",
+        "answer": "We carry hundreds of stain-resistant velvets, textured weaves, linens, and durable performance fabrics suitable for convertible furniture. You can explore swatches and verify options with our team."
+      },
+      {
+        "question": "How are elevator access and room assembly handled across Mumbai and Thane?",
+        "answer": "Our dedicated Mumbai carpentry crew delivers the unit in manageable modular sections, bringing it up via lift or stairs and assembling the mechanism directly in your room of choice."
+      },
+      {
+        "question": "How should I clean and maintain the mechanism and fabric of the Super Saver Sofa Cum Bed?",
+        "answer": "Wipe the upholstery with a clean, slightly damp cloth and vacuum fabric seams gently. Keep the glide tracks clear of dust or debris to maintain effortless opening and closing."
+      },
+      {
+        "question": "How can I confirm current pricing, availability, and mechanism warranty?",
+        "answer": "Contact Designer Furniture & Interior via the WhatsApp enquiry button to confirm current quotes, estimated production timelines, and warranty coverage for the Super Saver Sofa Cum Bed."
+      }
+    ]
   },
   {
-      "id": "modern-criss-cross-sofa-set",
-      "slug": "modern-criss-cross-sofa-set",
-      "name": "Modern criss cross sofa set",
-      "categorySlug": "sofas",
-      "subcategorySlug": "sofa-sets",
-      "shortDescription": "Artisan sofa suite with striking geometric criss-cross side paneling and lavishly tufted seating cushions.",
-      "description": "The Modern Criss Cross Sofa Set showcases intricate woodworking alongside ultra-plush living room comfort. Made in Mumbai using kiln-dried solid hardwood and stain-resistant upholstery.",
-      "price": null,
-      "originalPrice": null,
-      "discountPercent": null,
-      "badge": null,
-      "primaryImage": "/images/products/sofa-sets/modern-criss-cross-sofa-set/01_white_bg.jpg",
-      "secondaryImage": "/images/products/sofa-sets/modern-criss-cross-sofa-set/02_interior.jpg",
-      "images": [
-          "/images/products/sofa-sets/modern-criss-cross-sofa-set/01_white_bg.jpg",
-          "/images/products/sofa-sets/modern-criss-cross-sofa-set/02_interior.jpg",
-          "/images/products/sofa-sets/modern-criss-cross-sofa-set/03_3seater_front.jpg",
-          "/images/products/sofa-sets/modern-criss-cross-sofa-set/04_3seater_side.jpg",
-          "/images/products/sofa-sets/modern-criss-cross-sofa-set/05_1seater_front.jpg"
-      ],
-      "dimensions": "",
-      "materials": [
-          "Solid Timber Criss-Cross Architecture",
-          "High-Density Comfort Cores",
-          "Textured Luxury Fabric"
-      ],
-      "finish": "Hand-Waxed Timber Finish",
-      "colors": [],
-      "isCustomizable": false,
-      "inStock": true,
-      "careInstructions": "Wipe decorative woodwork with soft cloth. Vacuum fabric seams regularly.",
-      "deliveryInfo": "Assembled and inspected in our workshop prior to Mumbai delivery.",
-      "faqs": [
-          {
-              "question": "Can the criss cross lattice be stained in walnut?",
-              "answer": "Yes, teak, walnut, oak, and ebony stains are available."
-          },
-          {
-              "question": "Is this suitable for heavy daily use?",
-              "answer": "Yes, built with commercial-grade joint reinforcement."
-          }
-      ]
+    "id": "crown-malaysian-comfort-sofa-set",
+    "slug": "crown-malaysian-comfort-sofa-set",
+    "name": "Crown Malaysian Comfort Sofa Set",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-sets",
+    "shortDescription": "Mastercrafted Malaysian-inspired luxury sofa suite featuring deep plush seating, ergonomic lumbar contouring, and artisan upholstery.",
+    "description": "The Crown Malaysian Comfort Sofa Set exemplifies master joinery and refined living room elegance. Handcrafted in our Mumbai workshop with kiln-dried solid hardwood framing, high-resilience foam layers, and luxury imported fabric, this suite offers sublime comfort for family living and distinguished entertaining.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/01_white_bg.jpg",
+      "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/02_interior.jpg",
+      "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/03_3seater_front.jpg",
+      "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/04_3seater_side.jpg",
+      "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/05_1seater_front.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Solid Seasoned Hardwood Frame",
+      "High-Resilience Contour Foam",
+      "Stain-Resistant Imported Velvet / Fabric"
+    ],
+    "finish": "Hand-Rubbed Natural Timber Seal",
+    "colors": [],
+    "isCustomizable": false,
+    "inStock": true,
+    "careInstructions": "Dust regularly with soft dry microfiber cloth. Professional upholstery cleaning recommended annually.",
+    "deliveryInfo": "White-glove delivery and assembly across Mumbai metropolitan region directly from our workshop.",
+    "faqs": [
+      {
+        "question": "What living room spaces and arrangements are best suited for the Crown Malaysian Comfort Sofa Set?",
+        "answer": "The Crown Malaysian Comfort Sofa Set is designed to anchor formal living rooms, family lounges, and open-plan reception spaces with distinguished seating proportions and tailored elegance."
+      },
+      {
+        "question": "Can I customize the suite configuration (e.g. 3-seater, 2-seater, individual armchairs)?",
+        "answer": "Yes, you can configure individual piece counts to match your living room layout. Confirm your preferred combination of 3-seaters, loveseats, and accent armchairs with our showroom team."
+      },
+      {
+        "question": "Which fabrics, leathers, and color options can I enquire about for the Crown Malaysian Comfort Sofa Set?",
+        "answer": "We offer a wide spectrum of imported velvets, textured chenilles, linen blends, and genuine or faux leathers in neutral tones and rich accent shades. Swatches can be inspected at our Santacruz workshop."
+      },
+      {
+        "question": "What internal framework and joinery construction are used?",
+        "answer": "The internal frame is constructed with kiln-dried seasoned solid hardwood and reinforced joint blocks designed to withstand years of daily use without creaking or shifting."
+      },
+      {
+        "question": "What cushion support and foam densities are used in the Crown Malaysian Comfort Sofa Set?",
+        "answer": "The cushions combine pocketed steel springs with multilayer high-resilience contour foam for a balance of surface softness and firm structural support."
+      },
+      {
+        "question": "How should I care for and maintain the Crown Malaysian Comfort Sofa Set?",
+        "answer": "Regularly vacuum fabric surfaces with a soft brush attachment. Protect the upholstery from direct harsh sunlight to preserve color vibrancy. Annual professional dry cleaning is recommended."
+      },
+      {
+        "question": "How does your Mumbai team handle delivery, staircase clearance, and placement?",
+        "answer": "Our experienced white-glove team checks doorway clearances, navigates apartment elevators or stairwells, and places each sofa carefully in your living room."
+      },
+      {
+        "question": "How do I enquire about current price, lead time, and warranty?",
+        "answer": "Use the WhatsApp enquiry button on this page to discuss current pricing, manufacturing lead times, and structural warranty coverage directly with Designer Furniture & Interior."
+      }
+    ]
   },
   {
-      "id": "217-sofa-set",
-      "slug": "217-sofa-set",
-      "name": "217 sofa set",
-      "categorySlug": "sofas",
-      "subcategorySlug": "sofa-sets",
-      "shortDescription": "Classic architectural proportions with balanced backrest support, curved track arms, and premium factory joinery.",
-      "description": "Built for enduring comfort and timeless appeal, the 217 Sofa Set is crafted with a heavy-gauge internal spring system, high-resilience foam, and tailored upholstery from our Santacruz workshop.",
-      "price": null,
-      "originalPrice": null,
-      "discountPercent": null,
-      "badge": null,
-      "primaryImage": "/images/products/sofa-sets/217-sofa-set/01_white_bg.jpg",
-      "secondaryImage": "/images/products/sofa-sets/217-sofa-set/02_interior.jpg",
-      "images": [
-          "/images/products/sofa-sets/217-sofa-set/01_white_bg.jpg",
-          "/images/products/sofa-sets/217-sofa-set/02_interior.jpg",
-          "/images/products/sofa-sets/217-sofa-set/03_3seater_front.jpg",
-          "/images/products/sofa-sets/217-sofa-set/04_3seater_side.jpg",
-          "/images/products/sofa-sets/217-sofa-set/05_1seater_front.jpg"
-      ],
-      "dimensions": "",
-      "materials": [
-          "Internal Kiln-Dried Hardwood Frame",
-          "Heavy-Duty Sinuous Springs",
-          "Tailored Breathable Fabric"
-      ],
-      "finish": "Protective Natural Timber Seal",
-      "colors": [],
-      "isCustomizable": false,
-      "inStock": true,
-      "careInstructions": "Rotate and fluff seat cushions periodically. Professional clean only.",
-      "deliveryInfo": "Delivered in 7-10 days with white-glove setup.",
-      "faqs": [
-          {
-              "question": "Can this set include extra single chairs?",
-              "answer": "Yes, additional 1-seaters or an ottoman can be commissioned."
-          },
-          {
-              "question": "Does this have removable cushion covers?",
-              "answer": "Yes, zipper covers are provided on request for easy dry cleaning."
-          }
-      ]
+    "id": "two-tone-sofa-set",
+    "slug": "two-tone-sofa-set",
+    "name": "Two Tone Sofa Set",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-sets",
+    "shortDescription": "Sophisticated dual-palette contemporary sofa set with tailored contrast piping, supportive cushions, and reinforced solid frame.",
+    "description": "Designed for distinguished Mumbai interiors, the Two Tone Sofa Set pairs complementary tonal upholstery textures with tailored architectural contours. Every joint is mortise-and-tenon locked inside our Mumbai workshop for enduring durability.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-sets/two-tone-sofa-set/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-sets/two-tone-sofa-set/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-sets/two-tone-sofa-set/01_white_bg.jpg",
+      "/images/products/sofa-sets/two-tone-sofa-set/02_interior.jpg",
+      "/images/products/sofa-sets/two-tone-sofa-set/03_3seater_front.jpg",
+      "/images/products/sofa-sets/two-tone-sofa-set/04_3seater_side.jpg",
+      "/images/products/sofa-sets/two-tone-sofa-set/05_1seater_front.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Solid Hardwood Internal Core",
+      "Pocket Spring & HR Foam Layers",
+      "Two-Tone Textured Chenille"
+    ],
+    "finish": "Satin Protective Seal",
+    "colors": [],
+    "isCustomizable": false,
+    "inStock": true,
+    "careInstructions": "Spot clean spills immediately with mild damp cloth. Keep away from direct harsh sunlight.",
+    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane.",
+    "faqs": [
+      {
+        "question": "What living room spaces and arrangements are best suited for the Two Tone Sofa Set?",
+        "answer": "The Two Tone Sofa Set is designed to anchor formal living rooms, family lounges, and open-plan reception spaces with distinguished seating proportions and tailored elegance."
+      },
+      {
+        "question": "Can I customize the suite configuration (e.g. 3-seater, 2-seater, individual armchairs)?",
+        "answer": "Yes, you can configure individual piece counts to match your living room layout. Confirm your preferred combination of 3-seaters, loveseats, and accent armchairs with our showroom team."
+      },
+      {
+        "question": "Which fabrics, leathers, and color options can I enquire about for the Two Tone Sofa Set?",
+        "answer": "We offer a wide spectrum of imported velvets, textured chenilles, linen blends, and genuine or faux leathers in neutral tones and rich accent shades. Swatches can be inspected at our Santacruz workshop."
+      },
+      {
+        "question": "What internal framework and joinery construction are used?",
+        "answer": "The internal frame is constructed with kiln-dried seasoned solid hardwood and reinforced joint blocks designed to withstand years of daily use without creaking or shifting."
+      },
+      {
+        "question": "What cushion support and foam densities are used in the Two Tone Sofa Set?",
+        "answer": "The cushions combine pocketed steel springs with multilayer high-resilience contour foam for a balance of surface softness and firm structural support."
+      },
+      {
+        "question": "How should I care for and maintain the Two Tone Sofa Set?",
+        "answer": "Regularly vacuum fabric surfaces with a soft brush attachment. Protect the upholstery from direct harsh sunlight to preserve color vibrancy. Annual professional dry cleaning is recommended."
+      },
+      {
+        "question": "How does your Mumbai team handle delivery, staircase clearance, and placement?",
+        "answer": "Our experienced white-glove team checks doorway clearances, navigates apartment elevators or stairwells, and places each sofa carefully in your living room."
+      },
+      {
+        "question": "How do I enquire about current price, lead time, and warranty?",
+        "answer": "Use the WhatsApp enquiry button on this page to discuss current pricing, manufacturing lead times, and structural warranty coverage directly with Designer Furniture & Interior."
+      }
+    ]
   },
   {
-      "id": "369-sofa-set",
-      "slug": "369-sofa-set",
-      "name": "369 Sofa Set",
-      "categorySlug": "sofas",
-      "subcategorySlug": "sofa-sets",
-      "shortDescription": "Refined transitional sofa suite featuring generous depth, hand-stitched seams, and solid timber foundation.",
-      "description": "The 369 Sofa Set offers a harmonious blend of traditional craftsmanship and modern living comfort. Individually upholstered and quality-inspected inside our Mumbai workshop.",
-      "price": null,
-      "originalPrice": null,
-      "discountPercent": null,
-      "badge": null,
-      "primaryImage": "/images/products/sofa-sets/369-sofa-set/01_white_bg.jpg",
-      "secondaryImage": "/images/products/sofa-sets/369-sofa-set/02_interior.jpg",
-      "images": [
-          "/images/products/sofa-sets/369-sofa-set/01_white_bg.jpg",
-          "/images/products/sofa-sets/369-sofa-set/02_interior.jpg",
-          "/images/products/sofa-sets/369-sofa-set/03_3seater_front.jpg",
-          "/images/products/sofa-sets/369-sofa-set/04_3seater_side.jpg",
-          "/images/products/sofa-sets/369-sofa-set/05_1seater_front.jpg"
-      ],
-      "dimensions": "",
-      "materials": [
-          "Kiln-Dried Timber Architecture",
-          "Dual-Layer Resilience Foam",
-          "Lustrous Upholstery Fabric"
-      ],
-      "finish": "Hand-Rubbed Matte Finish",
-      "colors": [],
-      "isCustomizable": false,
-      "inStock": true,
-      "careInstructions": "Protect from sharp objects. Dust with dry cloth.",
-      "deliveryInfo": "Full white-glove home delivery across Mumbai.",
-      "faqs": [
-          {
-              "question": "Can this be made in genuine leather?",
-              "answer": "Yes, premium Italian and Indian top-grain leathers are available."
-          },
-          {
-              "question": "What are the payment options?",
-              "answer": "We take workshop commission advances with balance upon installation."
-          }
-      ]
+    "id": "new-zen-sofa-set",
+    "slug": "new-zen-sofa-set",
+    "name": "New Zen Sofa Set",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-sets",
+    "shortDescription": "Serene minimalist silhouette engineered with low-profile balance, deep ergonomic seating, and understated tranquility.",
+    "description": "The New Zen Sofa Set brings a calming aesthetic balance to modern living rooms. Handcrafted with high-density multilayer foam, breathable natural textiles, and seasoned internal timber framing.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-sets/new-zen-sofa-set/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-sets/new-zen-sofa-set/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-sets/new-zen-sofa-set/01_white_bg.jpg",
+      "/images/products/sofa-sets/new-zen-sofa-set/02_interior.jpg",
+      "/images/products/sofa-sets/new-zen-sofa-set/03_3seater_front.jpg",
+      "/images/products/sofa-sets/new-zen-sofa-set/04_3seater_side.jpg",
+      "/images/products/sofa-sets/new-zen-sofa-set/05_1seater_front.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Kiln-Dried Teak Base",
+      "Orthopedic Resilience Cushioning",
+      "Belgian Linen & Cotton Blend"
+    ],
+    "finish": "Natural Low-Sheen Wood Seal",
+    "colors": [],
+    "isCustomizable": false,
+    "inStock": true,
+    "careInstructions": "Vacuum gently using soft brush attachment. Professional dry clean recommended.",
+    "deliveryInfo": "White-glove delivery by our Mumbai workshop carpenters.",
+    "faqs": [
+      {
+        "question": "What living room spaces and arrangements are best suited for the New Zen Sofa Set?",
+        "answer": "The New Zen Sofa Set is designed to anchor formal living rooms, family lounges, and open-plan reception spaces with distinguished seating proportions and tailored elegance."
+      },
+      {
+        "question": "Can I customize the suite configuration (e.g. 3-seater, 2-seater, individual armchairs)?",
+        "answer": "Yes, you can configure individual piece counts to match your living room layout. Confirm your preferred combination of 3-seaters, loveseats, and accent armchairs with our showroom team."
+      },
+      {
+        "question": "Which fabrics, leathers, and color options can I enquire about for the New Zen Sofa Set?",
+        "answer": "We offer a wide spectrum of imported velvets, textured chenilles, linen blends, and genuine or faux leathers in neutral tones and rich accent shades. Swatches can be inspected at our Santacruz workshop."
+      },
+      {
+        "question": "What internal framework and joinery construction are used?",
+        "answer": "The internal frame is constructed with kiln-dried seasoned solid hardwood and reinforced joint blocks designed to withstand years of daily use without creaking or shifting."
+      },
+      {
+        "question": "What cushion support and foam densities are used in the New Zen Sofa Set?",
+        "answer": "The cushions combine pocketed steel springs with multilayer high-resilience contour foam for a balance of surface softness and firm structural support."
+      },
+      {
+        "question": "How should I care for and maintain the New Zen Sofa Set?",
+        "answer": "Regularly vacuum fabric surfaces with a soft brush attachment. Protect the upholstery from direct harsh sunlight to preserve color vibrancy. Annual professional dry cleaning is recommended."
+      },
+      {
+        "question": "How does your Mumbai team handle delivery, staircase clearance, and placement?",
+        "answer": "Our experienced white-glove team checks doorway clearances, navigates apartment elevators or stairwells, and places each sofa carefully in your living room."
+      },
+      {
+        "question": "How do I enquire about current price, lead time, and warranty?",
+        "answer": "Use the WhatsApp enquiry button on this page to discuss current pricing, manufacturing lead times, and structural warranty coverage directly with Designer Furniture & Interior."
+      }
+    ]
   },
   {
-      "id": "3066-pearl-sofa-set",
-      "slug": "3066-pearl-sofa-set",
-      "name": "3066 PEARL Sofa Set",
-      "categorySlug": "sofas",
-      "subcategorySlug": "sofa-sets",
-      "shortDescription": "Opulent flagship sofa suite with pearlescent fabric luster, hand-tufted ergonomics, and heirloom timber joinery.",
-      "description": "The 3066 PEARL Sofa Set is the pinnacle of living room grandeur. Handcrafted with high-density core foam, double-doweled kiln-dried timber framing, and luxurious pearlescent upholstery.",
-      "price": null,
-      "originalPrice": null,
-      "discountPercent": null,
-      "badge": null,
-      "primaryImage": "/images/products/sofa-sets/3066-pearl-sofa-set/01_white_bg.jpg",
-      "secondaryImage": "/images/products/sofa-sets/3066-pearl-sofa-set/02_interior.jpg",
-      "images": [
-          "/images/products/sofa-sets/3066-pearl-sofa-set/01_white_bg.jpg",
-          "/images/products/sofa-sets/3066-pearl-sofa-set/02_interior.jpg",
-          "/images/products/sofa-sets/3066-pearl-sofa-set/03_3seater_front.jpg",
-          "/images/products/sofa-sets/3066-pearl-sofa-set/04_3seater_side.jpg",
-          "/images/products/sofa-sets/3066-pearl-sofa-set/05_1seater_front.jpg"
-      ],
-      "dimensions": "",
-      "materials": [
-          "Heirloom Teak & Hardwood Structure",
-          "Luxury Pearlescent Fabric",
-          "Multi-Zone Comfort Spring Core"
-      ],
-      "finish": "Artisan Hand-Polished Seal",
-      "colors": [],
-      "isCustomizable": false,
-      "inStock": true,
-      "careInstructions": "Avoid chemical cleaners. Professional gentle dry clean.",
-      "deliveryInfo": "White-glove direct factory delivery with careful placement.",
-      "faqs": [
-          {
-              "question": "What is pearlescent fabric?",
-              "answer": "It is a luxury woven textile that catches ambient lighting with subtle, elegant sheen."
-          },
-          {
-              "question": "Can custom cushion firmness be specified?",
-              "answer": "Yes, firm, medium, or ultra-soft contouring can be chosen."
-          }
-      ]
+    "id": "magrack-sofa-set",
+    "slug": "magrack-sofa-set",
+    "name": "MAGRACK SOFA SET",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-sets",
+    "shortDescription": "Functional luxury sofa suite with integrated side storage rack, plush bolster armrests, and handcrafted timber accents.",
+    "description": "The MAGRACK Sofa Set combines clever magazine/book side storage with lavish, high-resilience seating comfort. Engineered in our Santacruz West facility with premium joinery and bespoke fabric finishing.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-sets/magrack-sofa-set/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-sets/magrack-sofa-set/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-sets/magrack-sofa-set/01_white_bg.jpg",
+      "/images/products/sofa-sets/magrack-sofa-set/02_interior.jpg",
+      "/images/products/sofa-sets/magrack-sofa-set/03_3seater_front.jpg",
+      "/images/products/sofa-sets/magrack-sofa-set/04_3seater_side.jpg",
+      "/images/products/sofa-sets/magrack-sofa-set/05_1seater_front.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Solid Seasoned Wood Framework",
+      "Integrated Side Timber Magazine Rack",
+      "High-Density Seating Cores"
+    ],
+    "finish": "Hand-Polished Hardwax Finish",
+    "colors": [],
+    "isCustomizable": false,
+    "inStock": true,
+    "careInstructions": "Wipe wood elements with dry cloth. Spot clean upholstery with foam cleaner.",
+    "deliveryInfo": "Direct factory delivery and on-site positioning by workshop staff.",
+    "faqs": [
+      {
+        "question": "What living room spaces and arrangements are best suited for the MAGRACK SOFA SET?",
+        "answer": "The MAGRACK SOFA SET is designed to anchor formal living rooms, family lounges, and open-plan reception spaces with distinguished seating proportions and tailored elegance."
+      },
+      {
+        "question": "Can I customize the suite configuration (e.g. 3-seater, 2-seater, individual armchairs)?",
+        "answer": "Yes, you can configure individual piece counts to match your living room layout. Confirm your preferred combination of 3-seaters, loveseats, and accent armchairs with our showroom team."
+      },
+      {
+        "question": "Which fabrics, leathers, and color options can I enquire about for the MAGRACK SOFA SET?",
+        "answer": "We offer a wide spectrum of imported velvets, textured chenilles, linen blends, and genuine or faux leathers in neutral tones and rich accent shades. Swatches can be inspected at our Santacruz workshop."
+      },
+      {
+        "question": "What internal framework and joinery construction are used?",
+        "answer": "The internal frame is constructed with kiln-dried seasoned solid hardwood and reinforced joint blocks designed to withstand years of daily use without creaking or shifting."
+      },
+      {
+        "question": "What cushion support and foam densities are used in the MAGRACK SOFA SET?",
+        "answer": "The cushions combine pocketed steel springs with multilayer high-resilience contour foam for a balance of surface softness and firm structural support."
+      },
+      {
+        "question": "How should I care for and maintain the MAGRACK SOFA SET?",
+        "answer": "Regularly vacuum fabric surfaces with a soft brush attachment. Protect the upholstery from direct harsh sunlight to preserve color vibrancy. Annual professional dry cleaning is recommended."
+      },
+      {
+        "question": "How does your Mumbai team handle delivery, staircase clearance, and placement?",
+        "answer": "Our experienced white-glove team checks doorway clearances, navigates apartment elevators or stairwells, and places each sofa carefully in your living room."
+      },
+      {
+        "question": "How do I enquire about current price, lead time, and warranty?",
+        "answer": "Use the WhatsApp enquiry button on this page to discuss current pricing, manufacturing lead times, and structural warranty coverage directly with Designer Furniture & Interior."
+      }
+    ]
+  },
+  {
+    "id": "pnd-sofa-set",
+    "slug": "pnd-sofa-set",
+    "name": "PND SOFA SET",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-sets",
+    "shortDescription": "Distinctive designer profile featuring bold sculptural lines, deep cushioned seats, and durable workshop craftsmanship.",
+    "description": "Handcrafted to order at our Mumbai workshop, the PND Sofa Set delivers a commanding living room statement with high-density core cushioning and precision seam tailoring.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-sets/pnd-sofa-set/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-sets/pnd-sofa-set/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-sets/pnd-sofa-set/01_white_bg.jpg",
+      "/images/products/sofa-sets/pnd-sofa-set/02_interior.jpg",
+      "/images/products/sofa-sets/pnd-sofa-set/03_3seater_front.jpg",
+      "/images/products/sofa-sets/pnd-sofa-set/04_3seater_side.jpg",
+      "/images/products/sofa-sets/pnd-sofa-set/05_1seater_front.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Seasoned Hardwood Construction",
+      "Multi-Layer Comfort Foam",
+      "Designer Woven Texture"
+    ],
+    "finish": "Matte PU Seal",
+    "colors": [],
+    "isCustomizable": false,
+    "inStock": true,
+    "careInstructions": "Keep away from excessive dampness. Use dry cleaning methods for fabric.",
+    "deliveryInfo": "White-glove delivery across Greater Mumbai.",
+    "faqs": [
+      {
+        "question": "What living room spaces and arrangements are best suited for the PND SOFA SET?",
+        "answer": "The PND SOFA SET is designed to anchor formal living rooms, family lounges, and open-plan reception spaces with distinguished seating proportions and tailored elegance."
+      },
+      {
+        "question": "Can I customize the suite configuration (e.g. 3-seater, 2-seater, individual armchairs)?",
+        "answer": "Yes, you can configure individual piece counts to match your living room layout. Confirm your preferred combination of 3-seaters, loveseats, and accent armchairs with our showroom team."
+      },
+      {
+        "question": "Which fabrics, leathers, and color options can I enquire about for the PND SOFA SET?",
+        "answer": "We offer a wide spectrum of imported velvets, textured chenilles, linen blends, and genuine or faux leathers in neutral tones and rich accent shades. Swatches can be inspected at our Santacruz workshop."
+      },
+      {
+        "question": "What internal framework and joinery construction are used?",
+        "answer": "The internal frame is constructed with kiln-dried seasoned solid hardwood and reinforced joint blocks designed to withstand years of daily use without creaking or shifting."
+      },
+      {
+        "question": "What cushion support and foam densities are used in the PND SOFA SET?",
+        "answer": "The cushions combine pocketed steel springs with multilayer high-resilience contour foam for a balance of surface softness and firm structural support."
+      },
+      {
+        "question": "How should I care for and maintain the PND SOFA SET?",
+        "answer": "Regularly vacuum fabric surfaces with a soft brush attachment. Protect the upholstery from direct harsh sunlight to preserve color vibrancy. Annual professional dry cleaning is recommended."
+      },
+      {
+        "question": "How does your Mumbai team handle delivery, staircase clearance, and placement?",
+        "answer": "Our experienced white-glove team checks doorway clearances, navigates apartment elevators or stairwells, and places each sofa carefully in your living room."
+      },
+      {
+        "question": "How do I enquire about current price, lead time, and warranty?",
+        "answer": "Use the WhatsApp enquiry button on this page to discuss current pricing, manufacturing lead times, and structural warranty coverage directly with Designer Furniture & Interior."
+      }
+    ]
+  },
+  {
+    "id": "modern-criss-cross-sofa-set",
+    "slug": "modern-criss-cross-sofa-set",
+    "name": "Modern criss cross sofa set",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-sets",
+    "shortDescription": "Artisan sofa suite with striking geometric criss-cross side paneling and lavishly tufted seating cushions.",
+    "description": "The Modern Criss Cross Sofa Set showcases intricate woodworking alongside ultra-plush living room comfort. Made in Mumbai using kiln-dried solid hardwood and stain-resistant upholstery.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-sets/modern-criss-cross-sofa-set/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-sets/modern-criss-cross-sofa-set/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-sets/modern-criss-cross-sofa-set/01_white_bg.jpg",
+      "/images/products/sofa-sets/modern-criss-cross-sofa-set/02_interior.jpg",
+      "/images/products/sofa-sets/modern-criss-cross-sofa-set/03_3seater_front.jpg",
+      "/images/products/sofa-sets/modern-criss-cross-sofa-set/04_3seater_side.jpg",
+      "/images/products/sofa-sets/modern-criss-cross-sofa-set/05_1seater_front.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Solid Timber Criss-Cross Architecture",
+      "High-Density Comfort Cores",
+      "Textured Luxury Fabric"
+    ],
+    "finish": "Hand-Waxed Timber Finish",
+    "colors": [],
+    "isCustomizable": false,
+    "inStock": true,
+    "careInstructions": "Wipe decorative woodwork with soft cloth. Vacuum fabric seams regularly.",
+    "deliveryInfo": "Assembled and inspected in our workshop prior to Mumbai delivery.",
+    "faqs": [
+      {
+        "question": "What living room spaces and arrangements are best suited for the Modern criss cross sofa set?",
+        "answer": "The Modern criss cross sofa set is designed to anchor formal living rooms, family lounges, and open-plan reception spaces with distinguished seating proportions and tailored elegance."
+      },
+      {
+        "question": "Can I customize the suite configuration (e.g. 3-seater, 2-seater, individual armchairs)?",
+        "answer": "Yes, you can configure individual piece counts to match your living room layout. Confirm your preferred combination of 3-seaters, loveseats, and accent armchairs with our showroom team."
+      },
+      {
+        "question": "Which fabrics, leathers, and color options can I enquire about for the Modern criss cross sofa set?",
+        "answer": "We offer a wide spectrum of imported velvets, textured chenilles, linen blends, and genuine or faux leathers in neutral tones and rich accent shades. Swatches can be inspected at our Santacruz workshop."
+      },
+      {
+        "question": "What internal framework and joinery construction are used?",
+        "answer": "The internal frame is constructed with kiln-dried seasoned solid hardwood and reinforced joint blocks designed to withstand years of daily use without creaking or shifting."
+      },
+      {
+        "question": "What cushion support and foam densities are used in the Modern criss cross sofa set?",
+        "answer": "The cushions combine pocketed steel springs with multilayer high-resilience contour foam for a balance of surface softness and firm structural support."
+      },
+      {
+        "question": "How should I care for and maintain the Modern criss cross sofa set?",
+        "answer": "Regularly vacuum fabric surfaces with a soft brush attachment. Protect the upholstery from direct harsh sunlight to preserve color vibrancy. Annual professional dry cleaning is recommended."
+      },
+      {
+        "question": "How does your Mumbai team handle delivery, staircase clearance, and placement?",
+        "answer": "Our experienced white-glove team checks doorway clearances, navigates apartment elevators or stairwells, and places each sofa carefully in your living room."
+      },
+      {
+        "question": "How do I enquire about current price, lead time, and warranty?",
+        "answer": "Use the WhatsApp enquiry button on this page to discuss current pricing, manufacturing lead times, and structural warranty coverage directly with Designer Furniture & Interior."
+      }
+    ]
+  },
+  {
+    "id": "217-sofa-set",
+    "slug": "217-sofa-set",
+    "name": "217 sofa set",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-sets",
+    "shortDescription": "Classic architectural proportions with balanced backrest support, curved track arms, and premium factory joinery.",
+    "description": "Built for enduring comfort and timeless appeal, the 217 Sofa Set is crafted with a heavy-gauge internal spring system, high-resilience foam, and tailored upholstery from our Santacruz workshop.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-sets/217-sofa-set/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-sets/217-sofa-set/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-sets/217-sofa-set/01_white_bg.jpg",
+      "/images/products/sofa-sets/217-sofa-set/02_interior.jpg",
+      "/images/products/sofa-sets/217-sofa-set/03_3seater_front.jpg",
+      "/images/products/sofa-sets/217-sofa-set/04_3seater_side.jpg",
+      "/images/products/sofa-sets/217-sofa-set/05_1seater_front.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Internal Kiln-Dried Hardwood Frame",
+      "Heavy-Duty Sinuous Springs",
+      "Tailored Breathable Fabric"
+    ],
+    "finish": "Protective Natural Timber Seal",
+    "colors": [],
+    "isCustomizable": false,
+    "inStock": true,
+    "careInstructions": "Rotate and fluff seat cushions periodically. Professional clean only.",
+    "deliveryInfo": "Delivered in 7-10 days with white-glove setup.",
+    "faqs": [
+      {
+        "question": "What living room spaces and arrangements are best suited for the 217 sofa set?",
+        "answer": "The 217 sofa set is designed to anchor formal living rooms, family lounges, and open-plan reception spaces with distinguished seating proportions and tailored elegance."
+      },
+      {
+        "question": "Can I customize the suite configuration (e.g. 3-seater, 2-seater, individual armchairs)?",
+        "answer": "Yes, you can configure individual piece counts to match your living room layout. Confirm your preferred combination of 3-seaters, loveseats, and accent armchairs with our showroom team."
+      },
+      {
+        "question": "Which fabrics, leathers, and color options can I enquire about for the 217 sofa set?",
+        "answer": "We offer a wide spectrum of imported velvets, textured chenilles, linen blends, and genuine or faux leathers in neutral tones and rich accent shades. Swatches can be inspected at our Santacruz workshop."
+      },
+      {
+        "question": "What internal framework and joinery construction are used?",
+        "answer": "The internal frame is constructed with kiln-dried seasoned solid hardwood and reinforced joint blocks designed to withstand years of daily use without creaking or shifting."
+      },
+      {
+        "question": "What cushion support and foam densities are used in the 217 sofa set?",
+        "answer": "The cushions combine pocketed steel springs with multilayer high-resilience contour foam for a balance of surface softness and firm structural support."
+      },
+      {
+        "question": "How should I care for and maintain the 217 sofa set?",
+        "answer": "Regularly vacuum fabric surfaces with a soft brush attachment. Protect the upholstery from direct harsh sunlight to preserve color vibrancy. Annual professional dry cleaning is recommended."
+      },
+      {
+        "question": "How does your Mumbai team handle delivery, staircase clearance, and placement?",
+        "answer": "Our experienced white-glove team checks doorway clearances, navigates apartment elevators or stairwells, and places each sofa carefully in your living room."
+      },
+      {
+        "question": "How do I enquire about current price, lead time, and warranty?",
+        "answer": "Use the WhatsApp enquiry button on this page to discuss current pricing, manufacturing lead times, and structural warranty coverage directly with Designer Furniture & Interior."
+      }
+    ]
+  },
+  {
+    "id": "369-sofa-set",
+    "slug": "369-sofa-set",
+    "name": "369 Sofa Set",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-sets",
+    "shortDescription": "Refined transitional sofa suite featuring generous depth, hand-stitched seams, and solid timber foundation.",
+    "description": "The 369 Sofa Set offers a harmonious blend of traditional craftsmanship and modern living comfort. Individually upholstered and quality-inspected inside our Mumbai workshop.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-sets/369-sofa-set/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-sets/369-sofa-set/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-sets/369-sofa-set/01_white_bg.jpg",
+      "/images/products/sofa-sets/369-sofa-set/02_interior.jpg",
+      "/images/products/sofa-sets/369-sofa-set/03_3seater_front.jpg",
+      "/images/products/sofa-sets/369-sofa-set/04_3seater_side.jpg",
+      "/images/products/sofa-sets/369-sofa-set/05_1seater_front.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Kiln-Dried Timber Architecture",
+      "Dual-Layer Resilience Foam",
+      "Lustrous Upholstery Fabric"
+    ],
+    "finish": "Hand-Rubbed Matte Finish",
+    "colors": [],
+    "isCustomizable": false,
+    "inStock": true,
+    "careInstructions": "Protect from sharp objects. Dust with dry cloth.",
+    "deliveryInfo": "Full white-glove home delivery across Mumbai.",
+    "faqs": [
+      {
+        "question": "What living room spaces and arrangements are best suited for the 369 Sofa Set?",
+        "answer": "The 369 Sofa Set is designed to anchor formal living rooms, family lounges, and open-plan reception spaces with distinguished seating proportions and tailored elegance."
+      },
+      {
+        "question": "Can I customize the suite configuration (e.g. 3-seater, 2-seater, individual armchairs)?",
+        "answer": "Yes, you can configure individual piece counts to match your living room layout. Confirm your preferred combination of 3-seaters, loveseats, and accent armchairs with our showroom team."
+      },
+      {
+        "question": "Which fabrics, leathers, and color options can I enquire about for the 369 Sofa Set?",
+        "answer": "We offer a wide spectrum of imported velvets, textured chenilles, linen blends, and genuine or faux leathers in neutral tones and rich accent shades. Swatches can be inspected at our Santacruz workshop."
+      },
+      {
+        "question": "What internal framework and joinery construction are used?",
+        "answer": "The internal frame is constructed with kiln-dried seasoned solid hardwood and reinforced joint blocks designed to withstand years of daily use without creaking or shifting."
+      },
+      {
+        "question": "What cushion support and foam densities are used in the 369 Sofa Set?",
+        "answer": "The cushions combine pocketed steel springs with multilayer high-resilience contour foam for a balance of surface softness and firm structural support."
+      },
+      {
+        "question": "How should I care for and maintain the 369 Sofa Set?",
+        "answer": "Regularly vacuum fabric surfaces with a soft brush attachment. Protect the upholstery from direct harsh sunlight to preserve color vibrancy. Annual professional dry cleaning is recommended."
+      },
+      {
+        "question": "How does your Mumbai team handle delivery, staircase clearance, and placement?",
+        "answer": "Our experienced white-glove team checks doorway clearances, navigates apartment elevators or stairwells, and places each sofa carefully in your living room."
+      },
+      {
+        "question": "How do I enquire about current price, lead time, and warranty?",
+        "answer": "Use the WhatsApp enquiry button on this page to discuss current pricing, manufacturing lead times, and structural warranty coverage directly with Designer Furniture & Interior."
+      }
+    ]
+  },
+  {
+    "id": "3066-pearl-sofa-set",
+    "slug": "3066-pearl-sofa-set",
+    "name": "3066 PEARL Sofa Set",
+    "categorySlug": "sofas",
+    "subcategorySlug": "sofa-sets",
+    "shortDescription": "Opulent flagship sofa suite with pearlescent fabric luster, hand-tufted ergonomics, and heirloom timber joinery.",
+    "description": "The 3066 PEARL Sofa Set is the pinnacle of living room grandeur. Handcrafted with high-density core foam, double-doweled kiln-dried timber framing, and luxurious pearlescent upholstery.",
+    "price": null,
+    "originalPrice": null,
+    "discountPercent": null,
+    "badge": null,
+    "primaryImage": "/images/products/sofa-sets/3066-pearl-sofa-set/01_white_bg.jpg",
+    "secondaryImage": "/images/products/sofa-sets/3066-pearl-sofa-set/02_interior.jpg",
+    "images": [
+      "/images/products/sofa-sets/3066-pearl-sofa-set/01_white_bg.jpg",
+      "/images/products/sofa-sets/3066-pearl-sofa-set/02_interior.jpg",
+      "/images/products/sofa-sets/3066-pearl-sofa-set/03_3seater_front.jpg",
+      "/images/products/sofa-sets/3066-pearl-sofa-set/04_3seater_side.jpg",
+      "/images/products/sofa-sets/3066-pearl-sofa-set/05_1seater_front.jpg"
+    ],
+    "dimensions": "",
+    "materials": [
+      "Heirloom Teak & Hardwood Structure",
+      "Luxury Pearlescent Fabric",
+      "Multi-Zone Comfort Spring Core"
+    ],
+    "finish": "Artisan Hand-Polished Seal",
+    "colors": [],
+    "isCustomizable": false,
+    "inStock": true,
+    "careInstructions": "Avoid chemical cleaners. Professional gentle dry clean.",
+    "deliveryInfo": "White-glove direct factory delivery with careful placement.",
+    "faqs": [
+      {
+        "question": "What living room spaces and arrangements are best suited for the 3066 PEARL Sofa Set?",
+        "answer": "The 3066 PEARL Sofa Set is designed to anchor formal living rooms, family lounges, and open-plan reception spaces with distinguished seating proportions and tailored elegance."
+      },
+      {
+        "question": "Can I customize the suite configuration (e.g. 3-seater, 2-seater, individual armchairs)?",
+        "answer": "Yes, you can configure individual piece counts to match your living room layout. Confirm your preferred combination of 3-seaters, loveseats, and accent armchairs with our showroom team."
+      },
+      {
+        "question": "Which fabrics, leathers, and color options can I enquire about for the 3066 PEARL Sofa Set?",
+        "answer": "We offer a wide spectrum of imported velvets, textured chenilles, linen blends, and genuine or faux leathers in neutral tones and rich accent shades. Swatches can be inspected at our Santacruz workshop."
+      },
+      {
+        "question": "What internal framework and joinery construction are used?",
+        "answer": "The internal frame is constructed with kiln-dried seasoned solid hardwood and reinforced joint blocks designed to withstand years of daily use without creaking or shifting."
+      },
+      {
+        "question": "What cushion support and foam densities are used in the 3066 PEARL Sofa Set?",
+        "answer": "The cushions combine pocketed steel springs with multilayer high-resilience contour foam for a balance of surface softness and firm structural support."
+      },
+      {
+        "question": "How should I care for and maintain the 3066 PEARL Sofa Set?",
+        "answer": "Regularly vacuum fabric surfaces with a soft brush attachment. Protect the upholstery from direct harsh sunlight to preserve color vibrancy. Annual professional dry cleaning is recommended."
+      },
+      {
+        "question": "How does your Mumbai team handle delivery, staircase clearance, and placement?",
+        "answer": "Our experienced white-glove team checks doorway clearances, navigates apartment elevators or stairwells, and places each sofa carefully in your living room."
+      },
+      {
+        "question": "How do I enquire about current price, lead time, and warranty?",
+        "answer": "Use the WhatsApp enquiry button on this page to discuss current pricing, manufacturing lead times, and structural warranty coverage directly with Designer Furniture & Interior."
+      }
+    ]
   },
   {
     "id": "4-seater-dining-tables-01",
@@ -941,12 +1682,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How do I determine if the Padua Compact 4-Seater Teak Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What tabletop materials and solid timber construction are used in the Padua Compact 4-Seater Teak Table?",
+        "answer": "Depending on the model design, the Padua Compact 4-Seater Teak Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Padua Compact 4-Seater Teak Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Padua Compact 4-Seater Teak Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Padua Compact 4-Seater Teak Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -983,7 +1748,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -993,12 +1758,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How do I determine if the Treviso Square Bistro Dining Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What tabletop materials and solid timber construction are used in the Treviso Square Bistro Dining Table?",
+        "answer": "Depending on the model design, the Treviso Square Bistro Dining Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Treviso Square Bistro Dining Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Treviso Square Bistro Dining Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Treviso Square Bistro Dining Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1045,12 +1834,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How do I determine if the Mantua Solid Wood 6-Seater Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What tabletop materials and solid timber construction are used in the Mantua Solid Wood 6-Seater Table?",
+        "answer": "Depending on the model design, the Mantua Solid Wood 6-Seater Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Mantua Solid Wood 6-Seater Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Mantua Solid Wood 6-Seater Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Mantua Solid Wood 6-Seater Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1087,7 +1900,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -1097,12 +1910,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How do I determine if the Vicenza Floating Profile Dining Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What tabletop materials and solid timber construction are used in the Vicenza Floating Profile Dining Table?",
+        "answer": "Depending on the model design, the Vicenza Floating Profile Dining Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Vicenza Floating Profile Dining Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Vicenza Floating Profile Dining Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Vicenza Floating Profile Dining Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1149,12 +1986,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How do I determine if the Ferrara Grand 8-Seater Banquet Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What tabletop materials and solid timber construction are used in the Ferrara Grand 8-Seater Banquet Table?",
+        "answer": "Depending on the model design, the Ferrara Grand 8-Seater Banquet Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Ferrara Grand 8-Seater Banquet Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Ferrara Grand 8-Seater Banquet Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Ferrara Grand 8-Seater Banquet Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1191,7 +2052,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -1201,12 +2062,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How do I determine if the Rimini Architectural Trestle Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What tabletop materials and solid timber construction are used in the Rimini Architectural Trestle Table?",
+        "answer": "Depending on the model design, the Rimini Architectural Trestle Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Rimini Architectural Trestle Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Rimini Architectural Trestle Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Rimini Architectural Trestle Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1253,12 +2138,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How do I determine if the Reggio Penthouse 10-Seater Grand Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What tabletop materials and solid timber construction are used in the Reggio Penthouse 10-Seater Grand Table?",
+        "answer": "Depending on the model design, the Reggio Penthouse 10-Seater Grand Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Reggio Penthouse 10-Seater Grand Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Reggio Penthouse 10-Seater Grand Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Reggio Penthouse 10-Seater Grand Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1295,7 +2204,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -1305,12 +2214,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How do I determine if the Caserta Double-Pedestal Estate Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What tabletop materials and solid timber construction are used in the Caserta Double-Pedestal Estate Table?",
+        "answer": "Depending on the model design, the Caserta Double-Pedestal Estate Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Caserta Double-Pedestal Estate Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Caserta Double-Pedestal Estate Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Caserta Double-Pedestal Estate Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1357,12 +2290,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How do I determine if the Sorrento Fluted Column Round Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What tabletop materials and solid timber construction are used in the Sorrento Fluted Column Round Table?",
+        "answer": "Depending on the model design, the Sorrento Fluted Column Round Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Sorrento Fluted Column Round Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Sorrento Fluted Column Round Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Sorrento Fluted Column Round Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1399,7 +2356,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -1409,12 +2366,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How do I determine if the Positano Sculptural Conical Dining Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What tabletop materials and solid timber construction are used in the Positano Sculptural Conical Dining Table?",
+        "answer": "Depending on the model design, the Positano Sculptural Conical Dining Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Positano Sculptural Conical Dining Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Positano Sculptural Conical Dining Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Positano Sculptural Conical Dining Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1462,12 +2443,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How do I determine if the Genova Synchronized Extension Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What tabletop materials and solid timber construction are used in the Genova Synchronized Extension Table?",
+        "answer": "Depending on the model design, the Genova Synchronized Extension Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Genova Synchronized Extension Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Genova Synchronized Extension Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Genova Synchronized Extension Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1504,7 +2509,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -1514,12 +2519,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How do I determine if the Bari Pull-Out Telescopic Dining Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What tabletop materials and solid timber construction are used in the Bari Pull-Out Telescopic Dining Table?",
+        "answer": "Depending on the model design, the Bari Pull-Out Telescopic Dining Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Bari Pull-Out Telescopic Dining Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Bari Pull-Out Telescopic Dining Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Bari Pull-Out Telescopic Dining Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1567,12 +2596,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How do I determine if the Statuario Marble Monolith Dining Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What tabletop materials and solid timber construction are used in the Statuario Marble Monolith Dining Table?",
+        "answer": "Depending on the model design, the Statuario Marble Monolith Dining Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Statuario Marble Monolith Dining Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Statuario Marble Monolith Dining Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Statuario Marble Monolith Dining Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1609,7 +2662,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -1619,12 +2672,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How do I determine if the Marquina Black Marble Round Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What tabletop materials and solid timber construction are used in the Marquina Black Marble Round Table?",
+        "answer": "Depending on the model design, the Marquina Black Marble Round Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Marquina Black Marble Round Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Marquina Black Marble Round Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Marquina Black Marble Round Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1671,12 +2748,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How do I determine if the Heritage Solid Burma Teak Dining Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What tabletop materials and solid timber construction are used in the Heritage Solid Burma Teak Dining Table?",
+        "answer": "Depending on the model design, the Heritage Solid Burma Teak Dining Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Heritage Solid Burma Teak Dining Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Heritage Solid Burma Teak Dining Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Heritage Solid Burma Teak Dining Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1713,7 +2814,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -1723,12 +2824,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How do I determine if the Nordic Oak Plank Dining Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What tabletop materials and solid timber construction are used in the Nordic Oak Plank Dining Table?",
+        "answer": "Depending on the model design, the Nordic Oak Plank Dining Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Nordic Oak Plank Dining Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Nordic Oak Plank Dining Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Nordic Oak Plank Dining Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1776,12 +2901,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How do I determine if the Aero Minimalist Floating Top Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What tabletop materials and solid timber construction are used in the Aero Minimalist Floating Top Table?",
+        "answer": "Depending on the model design, the Aero Minimalist Floating Top Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Aero Minimalist Floating Top Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Aero Minimalist Floating Top Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Aero Minimalist Floating Top Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1818,7 +2967,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -1828,12 +2977,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How do I determine if the Linear Geometric Silhouette Table will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What tabletop materials and solid timber construction are used in the Linear Geometric Silhouette Table?",
+        "answer": "Depending on the model design, the Linear Geometric Silhouette Table is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Linear Geometric Silhouette Table be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Linear Geometric Silhouette Table be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Linear Geometric Silhouette Table?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1880,12 +3053,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "How do I determine if the Custom Bespoke Stone & Timber Ensemble will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What tabletop materials and solid timber construction are used in the Custom Bespoke Stone & Timber Ensemble?",
+        "answer": "Depending on the model design, the Custom Bespoke Stone & Timber Ensemble is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Custom Bespoke Stone & Timber Ensemble be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Custom Bespoke Stone & Timber Ensemble be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Custom Bespoke Stone & Timber Ensemble?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1923,7 +3120,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -1933,12 +3130,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "How do I determine if the Architectural Feast Table Commission will comfortably fit my dining area?",
+        "answer": "Measure your dining room dimensions and ensure you have at least 36 inches of clearance between the table edges and surrounding walls or sideboards to allow chairs to slide out comfortably."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What tabletop materials and solid timber construction are used in the Architectural Feast Table Commission?",
+        "answer": "Depending on the model design, the Architectural Feast Table Commission is crafted with solid hardwoods such as seasoned teak or oak, or engineered composite tops with natural veneer or natural stone. Confirm exact material specifications with our showroom."
+      },
+      {
+        "question": "How is the tabletop surface sealed against heat, moisture, and dining spills?",
+        "answer": "Table surfaces are treated with protective polyurethane or natural hardwax seals designed to resist everyday food spills, heat marks, and condensation when used with heat-resistant coasters."
+      },
+      {
+        "question": "Can the dimensions or wood stain of the Architectural Feast Table Commission be customized?",
+        "answer": "Yes, we can customize the table length, width, and wood stain (such as natural teak, walnut, or dark espresso) to suit your dining area. Please verify custom availability with our team."
+      },
+      {
+        "question": "Can the Architectural Feast Table Commission be paired with matching or custom upholstered dining chairs?",
+        "answer": "Yes, we manufacture complementary dining chairs with matching wood finishes and customizable upholstery to create a cohesive dining ensemble."
+      },
+      {
+        "question": "What daily maintenance and care are recommended for the Architectural Feast Table Commission?",
+        "answer": "Wipe clean with a soft cotton cloth dampened with water. Avoid abrasive scrubbers, harsh chemical detergents, and always use trivets for hot cookware."
+      },
+      {
+        "question": "How is white-glove delivery, doorway navigation, and tabletop leveling handled?",
+        "answer": "Our Mumbai factory team delivers the table base and top securely packaged, navigates apartment passages, and provides on-site assembly and precision leveling on your dining room floor."
+      },
+      {
+        "question": "How do I confirm current pricing, custom quotes, and delivery timelines?",
+        "answer": "Click the WhatsApp enquiry button to connect directly with Designer Furniture & Interior for pricing, finish samples, and delivery scheduling in Mumbai and surrounding areas."
       }
     ]
   },
@@ -1986,12 +3207,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What mattress sizes does the Veneto Grand King Architectural Bed accommodate?",
+        "answer": "The Veneto Grand King Architectural Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Veneto Grand King Architectural Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Veneto Grand King Architectural Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Veneto Grand King Architectural Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Veneto Grand King Architectural Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Veneto Grand King Architectural Bed."
       }
     ]
   },
@@ -2029,7 +3274,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -2039,12 +3284,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What mattress sizes does the Cortina Low-Profile King Platform Bed accommodate?",
+        "answer": "The Cortina Low-Profile King Platform Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Cortina Low-Profile King Platform Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Cortina Low-Profile King Platform Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Cortina Low-Profile King Platform Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Cortina Low-Profile King Platform Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Cortina Low-Profile King Platform Bed."
       }
     ]
   },
@@ -2092,12 +3361,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What mattress sizes does the Amalfi Contemporary Queen Bed accommodate?",
+        "answer": "The Amalfi Contemporary Queen Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Amalfi Contemporary Queen Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Amalfi Contemporary Queen Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Amalfi Contemporary Queen Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Amalfi Contemporary Queen Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Amalfi Contemporary Queen Bed."
       }
     ]
   },
@@ -2135,7 +3428,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -2145,12 +3438,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What mattress sizes does the Ravello Floating Queen Bedframe accommodate?",
+        "answer": "The Ravello Floating Queen Bedframe is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Ravello Floating Queen Bedframe offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Ravello Floating Queen Bedframe with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Ravello Floating Queen Bedframe?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Ravello Floating Queen Bedframe is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Ravello Floating Queen Bedframe."
       }
     ]
   },
@@ -2174,7 +3491,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "dimensions": "58\" W x 80\" L x 42\" H",
     "materials": [
       "Solid Ash Wood",
-      "Boucl\u00e9 Fabric",
+      "Bouclé Fabric",
       "Heavy-Duty Slats"
     ],
     "finish": "Hand-Rubbed Satin PU Seal",
@@ -2198,12 +3515,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What mattress sizes does the Ancona Compact Guest Double Bed accommodate?",
+        "answer": "The Ancona Compact Guest Double Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Ancona Compact Guest Double Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Ancona Compact Guest Double Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Ancona Compact Guest Double Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Ancona Compact Guest Double Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Ancona Compact Guest Double Bed."
       }
     ]
   },
@@ -2240,7 +3581,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -2250,12 +3591,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What mattress sizes does the Parma Minimalist Studio Double Bed accommodate?",
+        "answer": "The Parma Minimalist Studio Double Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Parma Minimalist Studio Double Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Parma Minimalist Studio Double Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Parma Minimalist Studio Double Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Parma Minimalist Studio Double Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Parma Minimalist Studio Double Bed."
       }
     ]
   },
@@ -2303,12 +3668,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What mattress sizes does the Treviso Quad-Drawer Storage Bed accommodate?",
+        "answer": "The Treviso Quad-Drawer Storage Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Treviso Quad-Drawer Storage Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Treviso Quad-Drawer Storage Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Treviso Quad-Drawer Storage Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Treviso Quad-Drawer Storage Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Treviso Quad-Drawer Storage Bed."
       }
     ]
   },
@@ -2345,7 +3734,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -2355,12 +3744,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What mattress sizes does the Padua Dual-Zone Divided Storage Bed accommodate?",
+        "answer": "The Padua Dual-Zone Divided Storage Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Padua Dual-Zone Divided Storage Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Padua Dual-Zone Divided Storage Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Padua Dual-Zone Divided Storage Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Padua Dual-Zone Divided Storage Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Padua Dual-Zone Divided Storage Bed."
       }
     ]
   },
@@ -2408,12 +3821,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What mattress sizes does the Milano Easy-Lift Hydraulic Bed accommodate?",
+        "answer": "The Milano Easy-Lift Hydraulic Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Milano Easy-Lift Hydraulic Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Milano Easy-Lift Hydraulic Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Milano Easy-Lift Hydraulic Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Milano Easy-Lift Hydraulic Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Milano Easy-Lift Hydraulic Bed."
       }
     ]
   },
@@ -2451,7 +3888,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -2461,12 +3898,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What mattress sizes does the Monza Steel-Frame Hydraulic Bed accommodate?",
+        "answer": "The Monza Steel-Frame Hydraulic Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Monza Steel-Frame Hydraulic Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Monza Steel-Frame Hydraulic Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Monza Steel-Frame Hydraulic Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Monza Steel-Frame Hydraulic Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Monza Steel-Frame Hydraulic Bed."
       }
     ]
   },
@@ -2514,12 +3975,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What mattress sizes does the Florence Fluted Channel Upholstered Bed accommodate?",
+        "answer": "The Florence Fluted Channel Upholstered Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Florence Fluted Channel Upholstered Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Florence Fluted Channel Upholstered Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Florence Fluted Channel Upholstered Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Florence Fluted Channel Upholstered Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Florence Fluted Channel Upholstered Bed."
       }
     ]
   },
@@ -2543,7 +4028,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "dimensions": "78\" W x 88\" L x 46\" H",
     "materials": [
       "Feather-Topped Headrest Cushions",
-      "Woven Boucl\u00e9",
+      "Woven Bouclé",
       "Teak Feet"
     ],
     "finish": "Natural Matte Hardwax / PU",
@@ -2557,7 +4042,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -2567,12 +4052,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What mattress sizes does the Siena Curved Pillowback Bed accommodate?",
+        "answer": "The Siena Curved Pillowback Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Siena Curved Pillowback Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Siena Curved Pillowback Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Siena Curved Pillowback Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Siena Curved Pillowback Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Siena Curved Pillowback Bed."
       }
     ]
   },
@@ -2619,12 +4128,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What mattress sizes does the Kyoto-Milano Low Platform Bed accommodate?",
+        "answer": "The Kyoto-Milano Low Platform Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Kyoto-Milano Low Platform Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Kyoto-Milano Low Platform Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Kyoto-Milano Low Platform Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Kyoto-Milano Low Platform Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Kyoto-Milano Low Platform Bed."
       }
     ]
   },
@@ -2661,7 +4194,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -2671,12 +4204,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What mattress sizes does the Zenith Floating Slat Bed accommodate?",
+        "answer": "The Zenith Floating Slat Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Zenith Floating Slat Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Zenith Floating Slat Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Zenith Floating Slat Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Zenith Floating Slat Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Zenith Floating Slat Bed."
       }
     ]
   },
@@ -2723,12 +4280,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What mattress sizes does the Royal Burma Teak Heirloom Bed accommodate?",
+        "answer": "The Royal Burma Teak Heirloom Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Royal Burma Teak Heirloom Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Royal Burma Teak Heirloom Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Royal Burma Teak Heirloom Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Royal Burma Teak Heirloom Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Royal Burma Teak Heirloom Bed."
       }
     ]
   },
@@ -2765,7 +4346,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -2775,12 +4356,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What mattress sizes does the Verona Spindle Headboard Bed accommodate?",
+        "answer": "The Verona Spindle Headboard Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Verona Spindle Headboard Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Verona Spindle Headboard Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Verona Spindle Headboard Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Verona Spindle Headboard Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Verona Spindle Headboard Bed."
       }
     ]
   },
@@ -2828,12 +4433,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What mattress sizes does the Lumina Architectural Headboard Bed accommodate?",
+        "answer": "The Lumina Architectural Headboard Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Lumina Architectural Headboard Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Lumina Architectural Headboard Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Lumina Architectural Headboard Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Lumina Architectural Headboard Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Lumina Architectural Headboard Bed."
       }
     ]
   },
@@ -2870,7 +4499,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -2880,12 +4509,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What mattress sizes does the Sphere Minimalist Bedroom Suite Bed accommodate?",
+        "answer": "The Sphere Minimalist Bedroom Suite Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Sphere Minimalist Bedroom Suite Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Sphere Minimalist Bedroom Suite Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Sphere Minimalist Bedroom Suite Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Sphere Minimalist Bedroom Suite Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Sphere Minimalist Bedroom Suite Bed."
       }
     ]
   },
@@ -2932,12 +4585,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What mattress sizes does the Atelier Bespoke Master Suite Bed Commission accommodate?",
+        "answer": "The Atelier Bespoke Master Suite Bed Commission is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Atelier Bespoke Master Suite Bed Commission offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Atelier Bespoke Master Suite Bed Commission with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Atelier Bespoke Master Suite Bed Commission?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Atelier Bespoke Master Suite Bed Commission is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Atelier Bespoke Master Suite Bed Commission."
       }
     ]
   },
@@ -2975,7 +4652,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -2985,12 +4662,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What mattress sizes does the Palatial Extended Wingback Custom Bed accommodate?",
+        "answer": "The Palatial Extended Wingback Custom Bed is built to standard King, Queen, or custom mattress sizes. We recommend confirming your mattress dimensions with our team so the frame bed-box is sized perfectly."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Palatial Extended Wingback Custom Bed offer integrated hydraulic lift-up or drawer storage options?",
+        "answer": "Many of our bed designs can be ordered with heavy-duty hydraulic gas-lift platforms or smooth under-bed drawer storage. Please confirm storage options for the Palatial Extended Wingback Custom Bed with our showroom."
+      },
+      {
+        "question": "What internal timber joinery and frame construction prevent creaking?",
+        "answer": "The frame utilizes seasoned solid hardwood cross-beams and corner reinforcement blocks assembled with precision joinery to guarantee silent, creak-free sleep support."
+      },
+      {
+        "question": "Can the headboard height, upholstery fabric, or timber finish be customized?",
+        "answer": "Yes, you can customize the headboard height, choose from our collection of velvets, bouclés, or linens, and select custom wood stain finishes to suit your bedroom aesthetic."
+      },
+      {
+        "question": "How much walking space should I leave on the sides and foot of the Palatial Extended Wingback Custom Bed?",
+        "answer": "We recommend leaving at least 24 to 30 inches of walking clearance on both sides and at the foot of the bed for nightstands and effortless room circulation."
+      },
+      {
+        "question": "How does your team transport and assemble large bed frames through apartment elevators?",
+        "answer": "The Palatial Extended Wingback Custom Bed is transported in knock-down modular components engineered to fit standard apartment elevators and staircases, followed by complete assembly in your bedroom."
+      },
+      {
+        "question": "How should I care for and clean the headboard upholstery and wood surfaces?",
+        "answer": "Dust wooden rails regularly with a dry cloth. Upholstered headboards can be vacuumed with a fabric attachment and spot cleaned gently with mild upholstery shampoo."
+      },
+      {
+        "question": "How do I enquire about price, delivery timelines, and structural warranty?",
+        "answer": "Connect with Designer Furniture & Interior via WhatsApp to receive current pricing, discuss storage options, and confirm structural warranty coverage for the Palatial Extended Wingback Custom Bed."
       }
     ]
   },
@@ -3038,12 +4739,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What storage capacity and functional compartments are featured in the Modena Fluted Dual-Drawer Nightstand?",
+        "answer": "The Modena Fluted Dual-Drawer Nightstand is thoughtfully partitioned with drawers, adjustable shelving, or vitrine display areas tailored for organizing dinnerware, barware, or living room essentials."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What materials, timber framing, and hardware fittings are used in the Modena Fluted Dual-Drawer Nightstand?",
+        "answer": "Constructed with seasoned solid hardwood framing and premium marine ply core, paired with soft-close concealed hinges and smooth drawer runners for quiet, durable everyday operation."
+      },
+      {
+        "question": "Can the dimensions or interior shelf heights be adjusted for my needs?",
+        "answer": "Yes, our Mumbai factory can modify overall dimensions and internal shelf heights to accommodate tall glassware, serving platters, or specific room alcoves."
+      },
+      {
+        "question": "What finish options and door detailing (fluted, glass, timber) can I choose?",
+        "answer": "We offer a selection of rich wood stains, fluted relief patterns, tempered clear or fluted glass doors, and brushed metallic hardware. Please confirm options with our showroom."
+      },
+      {
+        "question": "Is the top surface durable enough for serving dishes, decorative lamps, or bottles?",
+        "answer": "Yes, the top counter is sealed with a scratch-resistant protective clear coat designed to withstand tabletop decor, serving platters, and beverage placement when using coasters."
+      },
+      {
+        "question": "How should I clean and maintain the Modena Fluted Dual-Drawer Nightstand?",
+        "answer": "Wipe wood surfaces with a dry or lightly damp cotton cloth. Glass doors can be cleaned with standard streak-free glass cleaner applied to a microfiber towel."
+      },
+      {
+        "question": "How is delivery and installation handled at my residence?",
+        "answer": "Our in-house white-glove carpentry crew delivers the unit, maneuvers it carefully into your room, levels the feet, and aligns all doors and drawers."
+      },
+      {
+        "question": "How can I enquire about current pricing, availability, and warranty?",
+        "answer": "Click the WhatsApp enquiry button to connect with Designer Furniture & Interior for up-to-date pricing, custom finish choices, and delivery scheduling across Mumbai."
       }
     ]
   },
@@ -3080,7 +4805,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -3090,12 +4815,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What storage capacity and functional compartments are featured in the Siena Floating Bedside Console?",
+        "answer": "The Siena Floating Bedside Console is thoughtfully partitioned with drawers, adjustable shelving, or vitrine display areas tailored for organizing dinnerware, barware, or living room essentials."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What materials, timber framing, and hardware fittings are used in the Siena Floating Bedside Console?",
+        "answer": "Constructed with seasoned solid hardwood framing and premium marine ply core, paired with soft-close concealed hinges and smooth drawer runners for quiet, durable everyday operation."
+      },
+      {
+        "question": "Can the dimensions or interior shelf heights be adjusted for my needs?",
+        "answer": "Yes, our Mumbai factory can modify overall dimensions and internal shelf heights to accommodate tall glassware, serving platters, or specific room alcoves."
+      },
+      {
+        "question": "What finish options and door detailing (fluted, glass, timber) can I choose?",
+        "answer": "We offer a selection of rich wood stains, fluted relief patterns, tempered clear or fluted glass doors, and brushed metallic hardware. Please confirm options with our showroom."
+      },
+      {
+        "question": "Is the top surface durable enough for serving dishes, decorative lamps, or bottles?",
+        "answer": "Yes, the top counter is sealed with a scratch-resistant protective clear coat designed to withstand tabletop decor, serving platters, and beverage placement when using coasters."
+      },
+      {
+        "question": "How should I clean and maintain the Siena Floating Bedside Console?",
+        "answer": "Wipe wood surfaces with a dry or lightly damp cotton cloth. Glass doors can be cleaned with standard streak-free glass cleaner applied to a microfiber towel."
+      },
+      {
+        "question": "How is delivery and installation handled at my residence?",
+        "answer": "Our in-house white-glove carpentry crew delivers the unit, maneuvers it carefully into your room, levels the feet, and aligns all doors and drawers."
+      },
+      {
+        "question": "How can I enquire about current pricing, availability, and warranty?",
+        "answer": "Click the WhatsApp enquiry button to connect with Designer Furniture & Interior for up-to-date pricing, custom finish choices, and delivery scheduling across Mumbai."
       }
     ]
   },
@@ -3143,12 +4892,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What TV screen sizes and wall dimensions can the Aero Floating Wall-Mounted TV Console accommodate?",
+        "answer": "The Aero Floating Wall-Mounted TV Console is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Aero Floating Wall-Mounted TV Console feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Aero Floating Wall-Mounted TV Console be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Aero Floating Wall-Mounted TV Console?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3186,7 +4959,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -3196,12 +4969,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What TV screen sizes and wall dimensions can the Lumina Backlit Wall Entertainment Panel accommodate?",
+        "answer": "The Lumina Backlit Wall Entertainment Panel is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Lumina Backlit Wall Entertainment Panel feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Lumina Backlit Wall Entertainment Panel be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Lumina Backlit Wall Entertainment Panel?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3249,12 +5046,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What TV screen sizes and wall dimensions can the Verona Fluted Low-Profile TV Credenza accommodate?",
+        "answer": "The Verona Fluted Low-Profile TV Credenza is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Verona Fluted Low-Profile TV Credenza feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Verona Fluted Low-Profile TV Credenza be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Verona Fluted Low-Profile TV Credenza?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3291,7 +5112,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -3301,12 +5122,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What TV screen sizes and wall dimensions can the Modena Mid-Century Media Sideboard accommodate?",
+        "answer": "The Modena Mid-Century Media Sideboard is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Modena Mid-Century Media Sideboard feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Modena Mid-Century Media Sideboard be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Modena Mid-Century Media Sideboard?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3354,12 +5199,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What TV screen sizes and wall dimensions can the Milano High-Capacity Media Center accommodate?",
+        "answer": "The Milano High-Capacity Media Center is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Milano High-Capacity Media Center feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Milano High-Capacity Media Center be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Milano High-Capacity Media Center?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3396,7 +5265,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -3406,12 +5275,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What TV screen sizes and wall dimensions can the Caserta Modular Media Wall Unit accommodate?",
+        "answer": "The Caserta Modular Media Wall Unit is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Caserta Modular Media Wall Unit feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Caserta Modular Media Wall Unit be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Caserta Modular Media Wall Unit?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3459,12 +5352,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What TV screen sizes and wall dimensions can the Linear Monolith Minimal TV Console accommodate?",
+        "answer": "The Linear Monolith Minimal TV Console is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Linear Monolith Minimal TV Console feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Linear Monolith Minimal TV Console be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Linear Monolith Minimal TV Console?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3501,7 +5418,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -3511,12 +5428,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What TV screen sizes and wall dimensions can the Zenith Shadowline TV Bench accommodate?",
+        "answer": "The Zenith Shadowline TV Bench is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Zenith Shadowline TV Bench feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Zenith Shadowline TV Bench be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Zenith Shadowline TV Bench?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3564,12 +5505,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What TV screen sizes and wall dimensions can the Prisma Asymmetric Architectural Media Unit accommodate?",
+        "answer": "The Prisma Asymmetric Architectural Media Unit is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Prisma Asymmetric Architectural Media Unit feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Prisma Asymmetric Architectural Media Unit be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Prisma Asymmetric Architectural Media Unit?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3606,7 +5571,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -3616,12 +5581,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What TV screen sizes and wall dimensions can the Contour Rounded Edge Modern TV Stand accommodate?",
+        "answer": "The Contour Rounded Edge Modern TV Stand is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Contour Rounded Edge Modern TV Stand feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Contour Rounded Edge Modern TV Stand be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Contour Rounded Edge Modern TV Stand?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3669,12 +5658,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What TV screen sizes and wall dimensions can the Bellagio Luxury Marble-Top Media Console accommodate?",
+        "answer": "The Bellagio Luxury Marble-Top Media Console is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Bellagio Luxury Marble-Top Media Console feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Bellagio Luxury Marble-Top Media Console be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Bellagio Luxury Marble-Top Media Console?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3712,7 +5725,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -3722,12 +5735,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What TV screen sizes and wall dimensions can the Venezia Art-Deco Entertainment Vitrine accommodate?",
+        "answer": "The Venezia Art-Deco Entertainment Vitrine is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Venezia Art-Deco Entertainment Vitrine feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Venezia Art-Deco Entertainment Vitrine be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Venezia Art-Deco Entertainment Vitrine?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3774,12 +5811,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What TV screen sizes and wall dimensions can the Architectural Elevation Custom TV Wall accommodate?",
+        "answer": "The Architectural Elevation Custom TV Wall is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Does the Architectural Elevation Custom TV Wall feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Architectural Elevation Custom TV Wall be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Architectural Elevation Custom TV Wall?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3816,7 +5877,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -3826,12 +5887,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What TV screen sizes and wall dimensions can the Acoustic Slat Theater Entertainment Center accommodate?",
+        "answer": "The Acoustic Slat Theater Entertainment Center is engineered to balance modern television proportions. Lengths and wall backdrops can be customized to match screen sizes from 55 inches to 85 inches and beyond."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Does the Acoustic Slat Theater Entertainment Center feature integrated cable management for concealing wiring?",
+        "answer": "Yes, internal wire grommets, raceways, and back-panel cutouts are incorporated to neatly route and hide all HDMI cords, power bricks, and media console cables."
+      },
+      {
+        "question": "How is internal ventilation designed for gaming consoles and set-top boxes?",
+        "answer": "Cabinet sections and open media niches feature rear ventilation slots that promote airflow, preventing overheating of set-top boxes, amplifiers, and game consoles."
+      },
+      {
+        "question": "Can the Acoustic Slat Theater Entertainment Center be floor-standing on a plinth or wall-mounted as a floating console?",
+        "answer": "Depending on your wall structure and aesthetic preference, we build both floating wall-mounted designs and low-profile plinth-based consoles. Confirm wall mounting options with our team."
+      },
+      {
+        "question": "What wood finishes, fluted textures, or marble accents are available?",
+        "answer": "We offer natural teak veneers, smoked oak, matte PU finishes, fluted acoustic slats, and stone-look composite accents. You can review finish samples with our showroom."
+      },
+      {
+        "question": "What wall construction is needed for installing wall-hung units?",
+        "answer": "Solid masonry or reinforced brick walls are ideal for floating wall consoles. Our installation technicians inspect wall integrity and use heavy-duty anchor bolts for safe mounting."
+      },
+      {
+        "question": "How should I clean and care for the surfaces of the Acoustic Slat Theater Entertainment Center?",
+        "answer": "Dust regularly with a dry lint-free cloth. Avoid spraying cleaners directly onto media electronics or unsealed wood joints. Use mild furniture polish sparingly on veneered sections."
+      },
+      {
+        "question": "How do I enquire about pricing, custom lengths, and installation in Mumbai?",
+        "answer": "Click the WhatsApp enquiry button to discuss your living room wall dimensions, TV size, and finish preferences directly with the Designer Furniture & Interior atelier."
       }
     ]
   },
@@ -3879,12 +5964,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Milano Top-Hung Dual Sliding Wardrobe?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Is the Milano Top-Hung Dual Sliding Wardrobe designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Milano Top-Hung Dual Sliding Wardrobe be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -3922,7 +6031,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -3932,12 +6041,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Nordic Floor-to-Ceiling Sliding Closet?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Is the Nordic Floor-to-Ceiling Sliding Closet designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Nordic Floor-to-Ceiling Sliding Closet be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -3985,12 +6118,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Verona Classic 4-Door Hinged Wardrobe?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Is the Verona Classic 4-Door Hinged Wardrobe designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Verona Classic 4-Door Hinged Wardrobe be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4027,7 +6184,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -4037,12 +6194,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Tuscan Beveled Shaker 3-Door Wardrobe?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Is the Tuscan Beveled Shaker 3-Door Wardrobe designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Tuscan Beveled Shaker 3-Door Wardrobe be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4090,12 +6271,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Beverly Master Suite Walk-In Dressing Room?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Is the Beverly Master Suite Walk-In Dressing Room designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Beverly Master Suite Walk-In Dressing Room be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4132,7 +6337,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -4142,12 +6347,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Linear Open-Bay Dressing Wardrobe?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Is the Linear Open-Bay Dressing Wardrobe designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Linear Open-Bay Dressing Wardrobe be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4195,12 +6424,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Luxe Smoked Glass & Aluminum Wardrobe?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Is the Luxe Smoked Glass & Aluminum Wardrobe designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Luxe Smoked Glass & Aluminum Wardrobe be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4237,7 +6490,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -4247,12 +6500,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Reeded Fluted Glass Boutique Wardrobe?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Is the Reeded Fluted Glass Boutique Wardrobe designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Reeded Fluted Glass Boutique Wardrobe be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4299,12 +6576,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Adaptiv 6-Bay Modular Storage System?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Is the Adaptiv 6-Bay Modular Storage System designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Adaptiv 6-Bay Modular Storage System be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4341,7 +6642,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -4351,12 +6652,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Flexi-Space Corner Modular Wardrobe?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Is the Flexi-Space Corner Modular Wardrobe designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Flexi-Space Corner Modular Wardrobe be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4404,12 +6729,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Sanctuary Master Bedroom Wardrobe with Vanity?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Is the Sanctuary Master Bedroom Wardrobe with Vanity designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Sanctuary Master Bedroom Wardrobe with Vanity be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4446,7 +6795,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -4456,12 +6805,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Loft-Optimized Dual Wardrobe Suite?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Is the Loft-Optimized Dual Wardrobe Suite designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Loft-Optimized Dual Wardrobe Suite be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4508,12 +6881,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Atelier Bespoke Handcrafted Wardrobe Suite?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "Is the Atelier Bespoke Handcrafted Wardrobe Suite designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Atelier Bespoke Handcrafted Wardrobe Suite be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4550,7 +6947,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -4560,12 +6957,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What internal configuration options (hanging rails, drawers, shelves) are available for the Heritage Teak Double-Height Custom Wardrobe?",
+        "answer": "Internal layouts can be tailored with dual hanging rails, long coat hanging zones, velvet-lined accessory drawers, and adjustable shelving to suit your personal wardrobe organization."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "Is the Heritage Teak Double-Height Custom Wardrobe designed with sliding doors or hinged doors, and what clearance is needed?",
+        "answer": "Depending on the model, we build both space-saving top-hung sliding wardrobes (ideal for compact bedrooms) and classic hinged door wardrobes. Ensure you have adequate swing clearance for hinged doors."
+      },
+      {
+        "question": "Can the Heritage Teak Double-Height Custom Wardrobe be built to full floor-to-ceiling dimensions?",
+        "answer": "Yes, our Mumbai factory specializes in custom floor-to-ceiling wardrobe joinery with loft storage to maximize vertical storage space in your bedroom."
+      },
+      {
+        "question": "What materials, ply grades, and hardware runners are used?",
+        "answer": "We use boiling-water-proof (BWP) marine ply, high-density laminate or veneer exteriors, and heavy-duty soft-close drawer and door runners tested for thousands of cycles."
+      },
+      {
+        "question": "Can the exterior laminate, fluted detailing, or tinted glass doors be customized?",
+        "answer": "Yes, you can choose from matte acrylics, natural wood veneers, fluted acoustic panels, or aluminum-framed tinted glass doors. Please verify swatch options with our showroom."
+      },
+      {
+        "question": "How is on-site modular installation and leveling managed in Mumbai apartments?",
+        "answer": "Our expert carpenters deliver the modular carcass panels, install the wardrobe plumb against your room walls, and adjust door alignments and leveling feet."
+      },
+      {
+        "question": "How should I clean and maintain the wardrobe tracks and door surfaces?",
+        "answer": "Wipe exterior surfaces with a soft damp microfiber cloth. Keep lower sliding tracks free of dust and lint to preserve effortless, whisper-quiet door operation."
+      },
+      {
+        "question": "How can I confirm custom dimensions, pricing, and installation timelines?",
+        "answer": "Use the WhatsApp enquiry button to share your bedroom wall dimensions and storage requirements with Designer Furniture & Interior for a custom quotation and site visit consultation."
       }
     ]
   },
@@ -4613,12 +7034,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What storage capacity and functional compartments are featured in the Aura Fluted Dining Room Credenza?",
+        "answer": "The Aura Fluted Dining Room Credenza is thoughtfully partitioned with drawers, adjustable shelving, or vitrine display areas tailored for organizing dinnerware, barware, or living room essentials."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "question": "What materials, timber framing, and hardware fittings are used in the Aura Fluted Dining Room Credenza?",
+        "answer": "Constructed with seasoned solid hardwood framing and premium marine ply core, paired with soft-close concealed hinges and smooth drawer runners for quiet, durable everyday operation."
+      },
+      {
+        "question": "Can the dimensions or interior shelf heights be adjusted for my needs?",
+        "answer": "Yes, our Mumbai factory can modify overall dimensions and internal shelf heights to accommodate tall glassware, serving platters, or specific room alcoves."
+      },
+      {
+        "question": "What finish options and door detailing (fluted, glass, timber) can I choose?",
+        "answer": "We offer a selection of rich wood stains, fluted relief patterns, tempered clear or fluted glass doors, and brushed metallic hardware. Please confirm options with our showroom."
+      },
+      {
+        "question": "Is the top surface durable enough for serving dishes, decorative lamps, or bottles?",
+        "answer": "Yes, the top counter is sealed with a scratch-resistant protective clear coat designed to withstand tabletop decor, serving platters, and beverage placement when using coasters."
+      },
+      {
+        "question": "How should I clean and maintain the Aura Fluted Dining Room Credenza?",
+        "answer": "Wipe wood surfaces with a dry or lightly damp cotton cloth. Glass doors can be cleaned with standard streak-free glass cleaner applied to a microfiber towel."
+      },
+      {
+        "question": "How is delivery and installation handled at my residence?",
+        "answer": "Our in-house white-glove carpentry crew delivers the unit, maneuvers it carefully into your room, levels the feet, and aligns all doors and drawers."
+      },
+      {
+        "question": "How can I enquire about current pricing, availability, and warranty?",
+        "answer": "Click the WhatsApp enquiry button to connect with Designer Furniture & Interior for up-to-date pricing, custom finish choices, and delivery scheduling across Mumbai."
       }
     ]
   },
@@ -4655,7 +7100,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -4665,12 +7110,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What storage capacity and functional compartments are featured in the Elysian Fluted Accent Cabinet?",
+        "answer": "The Elysian Fluted Accent Cabinet is thoughtfully partitioned with drawers, adjustable shelving, or vitrine display areas tailored for organizing dinnerware, barware, or living room essentials."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What materials, timber framing, and hardware fittings are used in the Elysian Fluted Accent Cabinet?",
+        "answer": "Constructed with seasoned solid hardwood framing and premium marine ply core, paired with soft-close concealed hinges and smooth drawer runners for quiet, durable everyday operation."
+      },
+      {
+        "question": "Can the dimensions or interior shelf heights be adjusted for my needs?",
+        "answer": "Yes, our Mumbai factory can modify overall dimensions and internal shelf heights to accommodate tall glassware, serving platters, or specific room alcoves."
+      },
+      {
+        "question": "What finish options and door detailing (fluted, glass, timber) can I choose?",
+        "answer": "We offer a selection of rich wood stains, fluted relief patterns, tempered clear or fluted glass doors, and brushed metallic hardware. Please confirm options with our showroom."
+      },
+      {
+        "question": "Is the top surface durable enough for serving dishes, decorative lamps, or bottles?",
+        "answer": "Yes, the top counter is sealed with a scratch-resistant protective clear coat designed to withstand tabletop decor, serving platters, and beverage placement when using coasters."
+      },
+      {
+        "question": "How should I clean and maintain the Elysian Fluted Accent Cabinet?",
+        "answer": "Wipe wood surfaces with a dry or lightly damp cotton cloth. Glass doors can be cleaned with standard streak-free glass cleaner applied to a microfiber towel."
+      },
+      {
+        "question": "How is delivery and installation handled at my residence?",
+        "answer": "Our in-house white-glove carpentry crew delivers the unit, maneuvers it carefully into your room, levels the feet, and aligns all doors and drawers."
+      },
+      {
+        "question": "How can I enquire about current pricing, availability, and warranty?",
+        "answer": "Click the WhatsApp enquiry button to connect with Designer Furniture & Interior for up-to-date pricing, custom finish choices, and delivery scheduling across Mumbai."
       }
     ]
   },
@@ -4718,12 +7187,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What storage capacity and functional compartments are featured in the Bordeaux Bar & Crockery Cabinet?",
+        "answer": "The Bordeaux Bar & Crockery Cabinet is thoughtfully partitioned with drawers, adjustable shelving, or vitrine display areas tailored for organizing dinnerware, barware, or living room essentials."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What materials, timber framing, and hardware fittings are used in the Bordeaux Bar & Crockery Cabinet?",
+        "answer": "Constructed with seasoned solid hardwood framing and premium marine ply core, paired with soft-close concealed hinges and smooth drawer runners for quiet, durable everyday operation."
+      },
+      {
+        "question": "Can the dimensions or interior shelf heights be adjusted for my needs?",
+        "answer": "Yes, our Mumbai factory can modify overall dimensions and internal shelf heights to accommodate tall glassware, serving platters, or specific room alcoves."
+      },
+      {
+        "question": "What finish options and door detailing (fluted, glass, timber) can I choose?",
+        "answer": "We offer a selection of rich wood stains, fluted relief patterns, tempered clear or fluted glass doors, and brushed metallic hardware. Please confirm options with our showroom."
+      },
+      {
+        "question": "Is the top surface durable enough for serving dishes, decorative lamps, or bottles?",
+        "answer": "Yes, the top counter is sealed with a scratch-resistant protective clear coat designed to withstand tabletop decor, serving platters, and beverage placement when using coasters."
+      },
+      {
+        "question": "How should I clean and maintain the Bordeaux Bar & Crockery Cabinet?",
+        "answer": "Wipe wood surfaces with a dry or lightly damp cotton cloth. Glass doors can be cleaned with standard streak-free glass cleaner applied to a microfiber towel."
+      },
+      {
+        "question": "How is delivery and installation handled at my residence?",
+        "answer": "Our in-house white-glove carpentry crew delivers the unit, maneuvers it carefully into your room, levels the feet, and aligns all doors and drawers."
+      },
+      {
+        "question": "How can I enquire about current pricing, availability, and warranty?",
+        "answer": "Click the WhatsApp enquiry button to connect with Designer Furniture & Interior for up-to-date pricing, custom finish choices, and delivery scheduling across Mumbai."
       }
     ]
   },
@@ -4760,7 +7253,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -4770,12 +7263,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What storage capacity and functional compartments are featured in the Nordic Multi-Tier Linen Cupboard?",
+        "answer": "The Nordic Multi-Tier Linen Cupboard is thoughtfully partitioned with drawers, adjustable shelving, or vitrine display areas tailored for organizing dinnerware, barware, or living room essentials."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What materials, timber framing, and hardware fittings are used in the Nordic Multi-Tier Linen Cupboard?",
+        "answer": "Constructed with seasoned solid hardwood framing and premium marine ply core, paired with soft-close concealed hinges and smooth drawer runners for quiet, durable everyday operation."
+      },
+      {
+        "question": "Can the dimensions or interior shelf heights be adjusted for my needs?",
+        "answer": "Yes, our Mumbai factory can modify overall dimensions and internal shelf heights to accommodate tall glassware, serving platters, or specific room alcoves."
+      },
+      {
+        "question": "What finish options and door detailing (fluted, glass, timber) can I choose?",
+        "answer": "We offer a selection of rich wood stains, fluted relief patterns, tempered clear or fluted glass doors, and brushed metallic hardware. Please confirm options with our showroom."
+      },
+      {
+        "question": "Is the top surface durable enough for serving dishes, decorative lamps, or bottles?",
+        "answer": "Yes, the top counter is sealed with a scratch-resistant protective clear coat designed to withstand tabletop decor, serving platters, and beverage placement when using coasters."
+      },
+      {
+        "question": "How should I clean and maintain the Nordic Multi-Tier Linen Cupboard?",
+        "answer": "Wipe wood surfaces with a dry or lightly damp cotton cloth. Glass doors can be cleaned with standard streak-free glass cleaner applied to a microfiber towel."
+      },
+      {
+        "question": "How is delivery and installation handled at my residence?",
+        "answer": "Our in-house white-glove carpentry crew delivers the unit, maneuvers it carefully into your room, levels the feet, and aligns all doors and drawers."
+      },
+      {
+        "question": "How can I enquire about current pricing, availability, and warranty?",
+        "answer": "Click the WhatsApp enquiry button to connect with Designer Furniture & Interior for up-to-date pricing, custom finish choices, and delivery scheduling across Mumbai."
       }
     ]
   },
@@ -4823,12 +7340,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What storage capacity and functional compartments are featured in the Galerie Illuminated Curio Vitrine?",
+        "answer": "The Galerie Illuminated Curio Vitrine is thoughtfully partitioned with drawers, adjustable shelving, or vitrine display areas tailored for organizing dinnerware, barware, or living room essentials."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What materials, timber framing, and hardware fittings are used in the Galerie Illuminated Curio Vitrine?",
+        "answer": "Constructed with seasoned solid hardwood framing and premium marine ply core, paired with soft-close concealed hinges and smooth drawer runners for quiet, durable everyday operation."
+      },
+      {
+        "question": "Can the dimensions or interior shelf heights be adjusted for my needs?",
+        "answer": "Yes, our Mumbai factory can modify overall dimensions and internal shelf heights to accommodate tall glassware, serving platters, or specific room alcoves."
+      },
+      {
+        "question": "What finish options and door detailing (fluted, glass, timber) can I choose?",
+        "answer": "We offer a selection of rich wood stains, fluted relief patterns, tempered clear or fluted glass doors, and brushed metallic hardware. Please confirm options with our showroom."
+      },
+      {
+        "question": "Is the top surface durable enough for serving dishes, decorative lamps, or bottles?",
+        "answer": "Yes, the top counter is sealed with a scratch-resistant protective clear coat designed to withstand tabletop decor, serving platters, and beverage placement when using coasters."
+      },
+      {
+        "question": "How should I clean and maintain the Galerie Illuminated Curio Vitrine?",
+        "answer": "Wipe wood surfaces with a dry or lightly damp cotton cloth. Glass doors can be cleaned with standard streak-free glass cleaner applied to a microfiber towel."
+      },
+      {
+        "question": "How is delivery and installation handled at my residence?",
+        "answer": "Our in-house white-glove carpentry crew delivers the unit, maneuvers it carefully into your room, levels the feet, and aligns all doors and drawers."
+      },
+      {
+        "question": "How can I enquire about current pricing, availability, and warranty?",
+        "answer": "Click the WhatsApp enquiry button to connect with Designer Furniture & Interior for up-to-date pricing, custom finish choices, and delivery scheduling across Mumbai."
       }
     ]
   },
@@ -4865,7 +7406,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -4875,12 +7416,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What storage capacity and functional compartments are featured in the Architectural Room-Divider Bookcase?",
+        "answer": "The Architectural Room-Divider Bookcase is thoughtfully partitioned with drawers, adjustable shelving, or vitrine display areas tailored for organizing dinnerware, barware, or living room essentials."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What materials, timber framing, and hardware fittings are used in the Architectural Room-Divider Bookcase?",
+        "answer": "Constructed with seasoned solid hardwood framing and premium marine ply core, paired with soft-close concealed hinges and smooth drawer runners for quiet, durable everyday operation."
+      },
+      {
+        "question": "Can the dimensions or interior shelf heights be adjusted for my needs?",
+        "answer": "Yes, our Mumbai factory can modify overall dimensions and internal shelf heights to accommodate tall glassware, serving platters, or specific room alcoves."
+      },
+      {
+        "question": "What finish options and door detailing (fluted, glass, timber) can I choose?",
+        "answer": "We offer a selection of rich wood stains, fluted relief patterns, tempered clear or fluted glass doors, and brushed metallic hardware. Please confirm options with our showroom."
+      },
+      {
+        "question": "Is the top surface durable enough for serving dishes, decorative lamps, or bottles?",
+        "answer": "Yes, the top counter is sealed with a scratch-resistant protective clear coat designed to withstand tabletop decor, serving platters, and beverage placement when using coasters."
+      },
+      {
+        "question": "How should I clean and maintain the Architectural Room-Divider Bookcase?",
+        "answer": "Wipe wood surfaces with a dry or lightly damp cotton cloth. Glass doors can be cleaned with standard streak-free glass cleaner applied to a microfiber towel."
+      },
+      {
+        "question": "How is delivery and installation handled at my residence?",
+        "answer": "Our in-house white-glove carpentry crew delivers the unit, maneuvers it carefully into your room, levels the feet, and aligns all doors and drawers."
+      },
+      {
+        "question": "How can I enquire about current pricing, availability, and warranty?",
+        "answer": "Click the WhatsApp enquiry button to connect with Designer Furniture & Interior for up-to-date pricing, custom finish choices, and delivery scheduling across Mumbai."
       }
     ]
   },
@@ -4927,12 +7492,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
     "faqs": [
       {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
+        "question": "What storage capacity and functional compartments are featured in the Bespoke Alcove Library & Storage Wall?",
+        "answer": "The Bespoke Alcove Library & Storage Wall is thoughtfully partitioned with drawers, adjustable shelving, or vitrine display areas tailored for organizing dinnerware, barware, or living room essentials."
       },
       {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
+        "question": "What materials, timber framing, and hardware fittings are used in the Bespoke Alcove Library & Storage Wall?",
+        "answer": "Constructed with seasoned solid hardwood framing and premium marine ply core, paired with soft-close concealed hinges and smooth drawer runners for quiet, durable everyday operation."
+      },
+      {
+        "question": "Can the dimensions or interior shelf heights be adjusted for my needs?",
+        "answer": "Yes, our Mumbai factory can modify overall dimensions and internal shelf heights to accommodate tall glassware, serving platters, or specific room alcoves."
+      },
+      {
+        "question": "What finish options and door detailing (fluted, glass, timber) can I choose?",
+        "answer": "We offer a selection of rich wood stains, fluted relief patterns, tempered clear or fluted glass doors, and brushed metallic hardware. Please confirm options with our showroom."
+      },
+      {
+        "question": "Is the top surface durable enough for serving dishes, decorative lamps, or bottles?",
+        "answer": "Yes, the top counter is sealed with a scratch-resistant protective clear coat designed to withstand tabletop decor, serving platters, and beverage placement when using coasters."
+      },
+      {
+        "question": "How should I clean and maintain the Bespoke Alcove Library & Storage Wall?",
+        "answer": "Wipe wood surfaces with a dry or lightly damp cotton cloth. Glass doors can be cleaned with standard streak-free glass cleaner applied to a microfiber towel."
+      },
+      {
+        "question": "How is delivery and installation handled at my residence?",
+        "answer": "Our in-house white-glove carpentry crew delivers the unit, maneuvers it carefully into your room, levels the feet, and aligns all doors and drawers."
+      },
+      {
+        "question": "How can I enquire about current pricing, availability, and warranty?",
+        "answer": "Click the WhatsApp enquiry button to connect with Designer Furniture & Interior for up-to-date pricing, custom finish choices, and delivery scheduling across Mumbai."
       }
     ]
   },
@@ -4969,7 +7558,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Boucl\u00e9",
+        "name": "Mocha Bouclé",
         "hex": "#795548"
       }
     ],
@@ -4979,12 +7568,36 @@ export const furnitureProducts: FurnitureProduct[] = [
     "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
     "faqs": [
       {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
+        "question": "What storage capacity and functional compartments are featured in the Foyer Shoe & Coat Architectural Credenza?",
+        "answer": "The Foyer Shoe & Coat Architectural Credenza is thoughtfully partitioned with drawers, adjustable shelving, or vitrine display areas tailored for organizing dinnerware, barware, or living room essentials."
       },
       {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
+        "question": "What materials, timber framing, and hardware fittings are used in the Foyer Shoe & Coat Architectural Credenza?",
+        "answer": "Constructed with seasoned solid hardwood framing and premium marine ply core, paired with soft-close concealed hinges and smooth drawer runners for quiet, durable everyday operation."
+      },
+      {
+        "question": "Can the dimensions or interior shelf heights be adjusted for my needs?",
+        "answer": "Yes, our Mumbai factory can modify overall dimensions and internal shelf heights to accommodate tall glassware, serving platters, or specific room alcoves."
+      },
+      {
+        "question": "What finish options and door detailing (fluted, glass, timber) can I choose?",
+        "answer": "We offer a selection of rich wood stains, fluted relief patterns, tempered clear or fluted glass doors, and brushed metallic hardware. Please confirm options with our showroom."
+      },
+      {
+        "question": "Is the top surface durable enough for serving dishes, decorative lamps, or bottles?",
+        "answer": "Yes, the top counter is sealed with a scratch-resistant protective clear coat designed to withstand tabletop decor, serving platters, and beverage placement when using coasters."
+      },
+      {
+        "question": "How should I clean and maintain the Foyer Shoe & Coat Architectural Credenza?",
+        "answer": "Wipe wood surfaces with a dry or lightly damp cotton cloth. Glass doors can be cleaned with standard streak-free glass cleaner applied to a microfiber towel."
+      },
+      {
+        "question": "How is delivery and installation handled at my residence?",
+        "answer": "Our in-house white-glove carpentry crew delivers the unit, maneuvers it carefully into your room, levels the feet, and aligns all doors and drawers."
+      },
+      {
+        "question": "How can I enquire about current pricing, availability, and warranty?",
+        "answer": "Click the WhatsApp enquiry button to connect with Designer Furniture & Interior for up-to-date pricing, custom finish choices, and delivery scheduling across Mumbai."
       }
     ]
   }
@@ -4995,7 +7608,7 @@ export const getCuratedCarousels = (): {
   carousel2: FurnitureProduct[];
 } => {
   const c1Ids = [
-    'l-shaped-sofas-01',
+    'florenza-l-shape-sofa',
     'crown-malaysian-comfort-sofa-set',
     'two-tone-sofa-set',
     '6-seater-dining-tables-01',
@@ -5010,7 +7623,7 @@ export const getCuratedCarousels = (): {
   ];
   const c2Ids = [
     'magrack-sofa-set',
-    'sofa-cum-beds-02',
+    'zen-sofa-cum-bed',
     'modern-criss-cross-sofa-set',
     '8-seater-dining-tables-02',
     'extendable-dining-tables-02',
@@ -5045,7 +7658,9 @@ export const getProductsBySubcategory = (
   return furnitureProducts.filter(
     (p) =>
       (!categorySlug || p.categorySlug === categorySlug) &&
-      p.subcategorySlug === subcategorySlug
+      (p.subcategorySlug === subcategorySlug ||
+        (subcategorySlug === 'l-shape-sofas' && p.subcategorySlug === 'l-shaped-sofas') ||
+        (subcategorySlug === 'l-shaped-sofas' && p.subcategorySlug === 'l-shape-sofas'))
   );
 };
 

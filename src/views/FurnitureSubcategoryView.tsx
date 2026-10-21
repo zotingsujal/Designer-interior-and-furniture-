@@ -111,6 +111,28 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
           const bannerImage = subcategory.image || bannerConfig?.localAssetUrl || bannerConfig?.directDriveUrl;
           const fallbackImage = bannerConfig?.directDriveUrl;
 
+          // Specific customized banner copy requested in PART 4 & PART 5
+          const isLShape = subcategory.slug === 'l-shape-sofas' || subcategory.slug === 'l-shaped-sofas';
+          const isSofaCumBed = subcategory.slug === 'sofa-cum-beds';
+
+          const bannerHeading = isLShape
+            ? 'L-Shaped Sofas'
+            : isSofaCumBed
+            ? 'Sofa Cum Beds'
+            : subcategory.name;
+
+          const bannerSupportingText = isLShape
+            ? 'Explore L-shaped sofa designs for different living-room layouts and furnishing needs.'
+            : isSofaCumBed
+            ? 'Discover convertible furniture options for flexible living spaces and guest accommodation.'
+            : `${subcategory.description} Each design can be tailored in custom dimensions, bespoke wood stains, and imported fabrics directly at our Mumbai factory workshop.`;
+
+          const bannerAltText = isLShape
+            ? 'L-shaped sofa designs for modern living rooms'
+            : isSofaCumBed
+            ? 'Sofa cum bed designs for versatile living spaces'
+            : `${subcategory.name} collection banner`;
+
           return (
             <div className="relative my-6 sm:my-8 bg-[#18181B] text-[#FAF9F5] rounded-xs border border-[#27272A] overflow-hidden shadow-sm">
               <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch">
@@ -127,10 +149,10 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
                       </span>
                     </div>
                     <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#FAF9F5] font-normal leading-tight mb-3">
-                      {subcategory.name}
+                      {bannerHeading}
                     </h1>
                     <p className="text-xs sm:text-sm text-[#D4D4D8] max-w-xl leading-relaxed mb-6 font-light">
-                      {subcategory.description} Each design can be tailored in custom dimensions, bespoke wood stains, and imported fabrics directly at our Mumbai factory workshop.
+                      {bannerSupportingText}
                     </p>
                   </div>
 
@@ -138,7 +160,7 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
                   <div className="pt-4 border-t border-white/15 flex flex-wrap items-center justify-between gap-3 text-xs">
                     <a
                       href={`https://wa.me/919821432122?text=Hi%20Designer%20Furniture%2C%20I%20am%20inquiring%20about%20custom%20${encodeURIComponent(
-                        subcategory.name
+                        bannerHeading
                       )}%20options.`}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -154,15 +176,15 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
                 </div>
 
                 {/* Right Subcategory Banner Image Column */}
-                <div className="lg:col-span-5 relative min-h-[240px] sm:min-h-[280px] lg:min-h-full bg-[#27272A] overflow-hidden group">
+                <div className="lg:col-span-5 relative min-h-[240px] sm:min-h-[280px] lg:min-h-[320px] bg-[#27272A] overflow-hidden group flex items-center justify-center">
                   <FurnitureImage
                     src={bannerImage}
                     fallbackSrc={fallbackImage}
-                    alt={`${subcategory.name} collection banner`}
+                    alt={bannerAltText}
                     category={category.slug}
-                    className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+                    className="w-full h-full object-contain p-2 sm:p-4 transition-transform duration-700 ease-out group-hover:scale-102"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-[#18181B]/80 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-[#18181B]/60 via-transparent to-transparent pointer-events-none" />
                 </div>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ImageOff } from 'lucide-react';
+import { resolveGoogleDriveAsset } from '../../data/driveImageMap';
 
 interface FurnitureImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   src?: string;
@@ -20,7 +21,9 @@ export const FurnitureImage: React.FC<FurnitureImageProps> = ({
   const [triedFallback, setTriedFallback] = useState(false);
   const [hasError, setHasError] = useState(false);
 
-  const activeSrc = !triedFallback ? src : fallbackSrc;
+  const resolvedSrc = resolveGoogleDriveAsset(src);
+  const resolvedFallback = resolveGoogleDriveAsset(fallbackSrc);
+  const activeSrc = !triedFallback ? resolvedSrc : resolvedFallback;
 
   // If no source or if both sources failed to load, display clean, clearly replaceable placeholder
   if (!activeSrc || hasError) {

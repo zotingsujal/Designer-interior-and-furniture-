@@ -22,11 +22,11 @@ export const CATEGORY_BANNER_CONFIGS: Record<string, CategoryBannerConfig> = {
   sofas: {
     slug: 'sofas',
     name: 'Sofas',
-    googleDriveUrl: 'https://drive.google.com/file/d/1u0EQjACYj_7imNel2FYYGusqWzoSECKe/view?usp=drivesdk',
-    driveFileId: '1u0EQjACYj_7imNel2FYYGusqWzoSECKe',
-    directCdnUrl: 'https://lh3.googleusercontent.com/d/1u0EQjACYj_7imNel2FYYGusqWzoSECKe',
-    thumbnailUrl: 'https://drive.google.com/thumbnail?id=1u0EQjACYj_7imNel2FYYGusqWzoSECKe&sz=w1600',
-    localFallbackUrl: '/images/categories/sofas.png',
+    googleDriveUrl: 'https://drive.google.com/file/d/101ptNCY-mL4XsjJcenng-BolQ8epZejh/view?usp=drivesdk',
+    driveFileId: '101ptNCY-mL4XsjJcenng-BolQ8epZejh',
+    directCdnUrl: 'https://lh3.googleusercontent.com/d/101ptNCY-mL4XsjJcenng-BolQ8epZejh',
+    thumbnailUrl: 'https://drive.google.com/thumbnail?id=101ptNCY-mL4XsjJcenng-BolQ8epZejh&sz=w1600',
+    localFallbackUrl: '/images/banners/sofas-category-banner.png',
   },
   'chairs-seating': {
     slug: 'chairs-seating',

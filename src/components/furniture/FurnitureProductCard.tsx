@@ -21,7 +21,7 @@ export const FurnitureProductCard: React.FC<FurnitureProductCardProps> = ({
     window.open(`https://wa.me/919821432122?text=${encodeURIComponent(message)}`, '_blank');
   };
 
-  const isSofaSet = product.subcategorySlug === 'sofa-sets';
+  const isSofaSet = product.subcategorySlug === 'sofa-sets' || product.subcategorySlug === 'l-shape-sofas' || product.subcategorySlug === 'l-shaped-sofas' || product.subcategorySlug === 'sofa-cum-beds';
 
   return (
     <article
